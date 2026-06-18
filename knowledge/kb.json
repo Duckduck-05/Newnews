@@ -1,0 +1,300 @@
+{
+  "companies": {
+    "Funding Societies": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": "Institutional",
+          "round": "N/A"
+        }
+      ]
+    },
+    "Goodwater Capital": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": "Chi-Hua Chien",
+          "round": "N/A"
+        }
+      ]
+    },
+    "Google": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": "N/A",
+          "round": "Public Product"
+        }
+      ]
+    },
+    "Iroh": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": "unknown",
+          "round": "unknown"
+        }
+      ]
+    }
+  },
+  "deep_tech": {
+    "Iroh Networking": {
+      "count": 1,
+      "domain": "Decentralized Computing",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
+    "Modos E-Paper": {
+      "count": 1,
+      "domain": "Display Hardware",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
+    "RLM Library": {
+      "count": 1,
+      "domain": "Inference Paradigms",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    }
+  },
+  "investors": {
+    "-": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "/": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "A": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "C": {
+      "count": 2,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "H": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "I": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "N": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "a": {
+      "count": 2,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "e": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "h": {
+      "count": 2,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "i": {
+      "count": 4,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "k": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "l": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "n": {
+      "count": 6,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "o": {
+      "count": 2,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "s": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "t": {
+      "count": 3,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "u": {
+      "count": 3,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "w": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    }
+  },
+  "tech": {
+    "BigQuery ML": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "E-Paper": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "GitHub Security": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Networking Stack": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Recursive Language Models": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Rust": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "TimesFM 2.5": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "ZFS": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    }
+  },
+  "themes": {
+    "AI Application Layer": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Capital Structural Dependency": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Decentralized Networking": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Economic Affordability": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "On-premise Sovereignty": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Payment Infrastructure Efficiency": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Recursive Inference": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Resource Arbitrage": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Systemic Security Risks": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Time Series Foundation Models": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    }
+  }
+}
