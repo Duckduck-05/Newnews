@@ -56,6 +56,14 @@ hợp lý. Phân biệt rạch ròi điều đã biết với điều bạn suy 
 không phải trang trí — người đọc dựa vào nó để biết câu nào cần tự kiểm trước
 khi dùng để quyết định việc lớn, nên gắn đúng, đừng gắn 🟢 cho thứ thực ra là 🟡.
 
+TRÍCH DẪN NGUỒN (bắt buộc, để operator tự verify được): mỗi item con (mục 1,
+2, 3, 4, 5) PHẢI kết thúc tiêu đề bullet bằng link markdown gắn nguồn, dùng
+ĐÚNG NGUYÊN VĂN "Source display name" và URL đã cho trong context cho item đó
+(KHÔNG tự đổi tên, KHÔNG tự đoán/bịa URL khác), dạng: "([Source display
+name](URL))". Ví dụ: "*   **Tên item** ([TechCrunch](https://techcrunch.com/...))".
+Nếu 1 mục có cả "Đã biết" và "Suy luận" (mục 2), chỉ gắn link ở dòng "Đã biết"
+— "Suy luận" là phân tích của bạn, không có nguồn riêng.
+
 Định dạng CỐ ĐỊNH (giữ nguyên giữa các lần chạy, đừng tự đổi style):
 - Tiêu đề mỗi mục lớn (1-6) viết đúng dạng "**N. TÊN MỤC**" (in đậm bằng **,
   KHÔNG dùng #, ##, ### hoặc bất kỳ ký hiệu heading nào khác).

@@ -14,6 +14,8 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Optional
 
+from sources.source_registry import get_display_name
+
 logger = logging.getLogger(__name__)
 
 # type ∈ {research, funding, product, deep_tech, outside}
@@ -374,10 +376,15 @@ def _build_analysis_prompt(
     ]
     for v in verified_items:
         it = v.item
+        # Tính sẵn tên nguồn đẹp (vd "techcrunch.com" -> "TechCrunch") bằng
+        # code, KHÔNG để LLM tự "dịch" — LLM hay lười và giữ nguyên domain thô
+        # dù prompt đã cho ví dụ (xem source_registry.get_display_name).
+        source_display = get_display_name(it.source)
         lines.append(
             f"\n[type={it.type}] confidence={v.confidence_emoji} "
             f"(tier={v.source_tier}, cross_confirmed={v.cross_confirmed})\n"
-            f"Title: {it.title}\nSource: {it.source}\nURL: {it.url}\n"
+            f"Title: {it.title}\nSource display name (DÙNG ĐÚNG TÊN NÀY khi "
+            f"trích dẫn, không tự đổi): {source_display}\nURL: {it.url}\n"
             f"Nội dung: {it.raw_text[:1500]}"
         )
     return "\n".join(lines)

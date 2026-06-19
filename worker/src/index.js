@@ -1,10 +1,11 @@
 /**
  * Cloudflare Worker — webhook tương tác Telegram cho Morning Intel Agent.
  *
- * Xử lý 3 loại update Telegram:
- *   1. command /start          -> welcome message.
- *   2. command /refresh        -> trigger lại pipeline qua GitHub
- *      repository_dispatch (event_type "refresh-digest").
+ * Xử lý các loại update Telegram:
+ *   1. command /start          -> welcome message + nút nhanh "🔄 Refresh".
+ *   2. command /refresh HOẶC callback_query "refresh" (nút nhanh dưới /start)
+ *      -> trigger lại pipeline qua GitHub repository_dispatch (event_type
+ *      "refresh-digest"). Cả 2 đường dùng chung handleRefresh().
  *   3. callback_query "qa:<key>" (bấm nút "🔍 Hỏi sâu thêm" dưới digest)
  *      -> đọc context item từ KV (key ghi bởi src/deliver.py qua
  *      write_items_to_kv), hỏi Gemini đào sâu thêm, reply.
@@ -69,7 +70,7 @@ async function handleMessage(message, env) {
   if (!chatId) return;
 
   if (text === "/start" || text.startsWith("/start ")) {
-    await sendMessage(env, chatId, WELCOME_TEXT);
+    await sendMessage(env, chatId, WELCOME_TEXT, START_KEYBOARD);
     return;
   }
 
@@ -103,7 +104,16 @@ Lệnh có sẵn:
 • /start — xem lại hướng dẫn này.
 • /refresh — chạy lại pipeline ngay (digest mới sẽ tới trong vài phút).
 • Bấm nút "🔍 Hỏi sâu thêm" dưới mỗi mục digest để hỏi sâu riêng item đó.
-• Hoặc gõ thẳng câu hỏi tự do — bot sẽ dùng digest gần nhất làm nền để trả lời.`;
+• Hoặc gõ thẳng câu hỏi tự do — bot sẽ dùng digest gần nhất làm nền để trả lời.
+
+👇 Hoặc bấm nút nhanh dưới đây:`;
+
+// Nút nhanh dưới /start — operator yêu cầu "easy to use giống các con bot
+// khác", không phải gõ lệnh tay mỗi lần. callback_data "refresh" dùng lại
+// CHÍNH logic handleRefresh() (xem handleCallbackQuery).
+const START_KEYBOARD = {
+  inline_keyboard: [[{ text: "🔄 Refresh digest ngay", callback_data: "refresh" }]],
+};
 
 // ---------------------------------------------------------------------
 // /refresh -> GitHub repository_dispatch
@@ -160,6 +170,11 @@ async function handleCallbackQuery(callbackQuery, env) {
   await answerCallbackQuery(env, callbackQuery.id);
 
   if (!chatId) return;
+
+  if (data === "refresh") {
+    await handleRefresh(chatId, env);
+    return;
+  }
 
   if (!data.startsWith("qa:")) {
     await sendMessage(env, chatId, "Không nhận diện được nút bấm này.");
@@ -286,7 +301,7 @@ async function askGeminiAndReply(env, chatId, prompt, contextLabel) {
     return;
   }
 
-  const model = env.GEMINI_MODEL || "gemini-flash-lite-latest";
+  const model = env.GEMINI_MODEL || "gemini-2.5-flash";
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${env.GEMINI_API_KEY}`;
 
   try {
@@ -327,20 +342,22 @@ async function askGeminiAndReply(env, chatId, prompt, contextLabel) {
 // Telegram helpers
 // ---------------------------------------------------------------------
 
-async function sendMessage(env, chatId, text) {
+async function sendMessage(env, chatId, text, replyMarkup) {
   if (!env.TELEGRAM_BOT_TOKEN) {
     console.error("Thiếu TELEGRAM_BOT_TOKEN, không gửi được:", text);
     return;
   }
   const url = TELEGRAM_API(env.TELEGRAM_BOT_TOKEN, "sendMessage");
+  const payload = {
+    chat_id: chatId,
+    text: truncate(text, 4000),
+  };
+  if (replyMarkup) payload.reply_markup = replyMarkup;
   try {
     await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text: truncate(text, 4000),
-      }),
+      body: JSON.stringify(payload),
     });
   } catch (err) {
     console.error("sendMessage lỗi:", err);

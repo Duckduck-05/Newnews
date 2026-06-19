@@ -34,6 +34,43 @@ SOURCE_TIERS: dict[str, int] = {
 
 DEFAULT_TIER = 3
 
+# Tên hiển thị đẹp cho domain — dùng khi build prompt Stage 2 để LLM nhúng
+# link nguồn vào digest (xem pipeline._build_analysis_prompt). Tính sẵn ở
+# code thay vì để LLM tự "dịch" domain -> tên đẹp, vì LLM hay lười và giữ
+# nguyên domain thô (vd "techcrunch.com" thay vì "TechCrunch") dù prompt đã
+# cho ví dụ.
+SOURCE_DISPLAY_NAMES: dict[str, str] = {
+    "arxiv.org": "arXiv",
+    "ieee.org": "IEEE",
+    "spectrum.ieee.org": "IEEE Spectrum",
+    "techcrunch.com": "TechCrunch",
+    "crunchbase.com": "Crunchbase News",
+    "sequoiacap.com": "Sequoia Capital",
+    "a16z.com": "a16z",
+    "stratechery.com": "Stratechery",
+    "sifted.eu": "Sifted",
+    "e27.co": "e27",
+    "techinasia.com": "Tech in Asia",
+    "dealstreetasia.com": "DealStreetAsia",
+    "kr-asia.com": "KrASIA",
+    "ycombinator.com": "Y Combinator",
+    "news.ycombinator.com": "Hacker News",
+    "producthunt.com": "Product Hunt",
+    "github.com": "GitHub",
+}
+
+
+def get_display_name(source: str) -> str:
+    """Trả tên hiển thị đẹp cho domain; fallback về domain thô nếu chưa có
+    trong bảng (vẫn dùng được, chỉ kém đẹp hơn, không lỗi)."""
+    domain = get_domain(source)
+    if domain in SOURCE_DISPLAY_NAMES:
+        return SOURCE_DISPLAY_NAMES[domain]
+    for known_domain, name in SOURCE_DISPLAY_NAMES.items():
+        if domain == known_domain or domain.endswith("." + known_domain):
+            return name
+    return domain
+
 
 def get_domain(url_or_domain: str) -> str:
     """Chuẩn hoá về domain gốc (bỏ scheme, www, path) để tra bảng."""
