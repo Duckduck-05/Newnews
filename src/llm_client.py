@@ -20,7 +20,12 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
+# Đổi từ "gemini-flash-lite-latest" (model nhỏ/rẻ) lên "gemini-2.5-flash"
+# (Flash đầy đủ, bản stable — không dùng alias "gemini-flash-latest" vì test
+# thực tế gặp 503 quá tải, "2.5-flash" ổn định hơn): operator báo insight chưa
+# đủ sâu. Vẫn free tier (giới hạn request/phút thấp hơn Lite, nhưng pipeline
+# chỉ gọi 2 lần/ngày nên không chạm giới hạn). Override qua env GEMINI_MODEL.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_ENDPOINT = (
     "https://generativelanguage.googleapis.com/v1beta/models/"
     "{model}:generateContent"
@@ -29,7 +34,7 @@ DEEPSEEK_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-v4-flash")
 # Endpoint Anthropic-compatible theo brief §1.
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/anthropic/v1/messages"
 
-DEFAULT_TIMEOUT_S = 30
+DEFAULT_TIMEOUT_S = 60
 # Temperature thấp (mặc định API thường ~1.0) để output ổn định/nhất quán
 # giữa các lần gọi — đây vốn là phân tích/báo cáo, không cần sáng tạo cao,
 # và operator báo "chất lượng mỗi lần gửi khác nhau" -> giảm variance.

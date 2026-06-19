@@ -8,7 +8,7 @@ compatibility_date = "2024-09-01"
 [vars]
 GITHUB_OWNER = "Duckduck-05"
 GITHUB_REPO = "Newnews"
-GEMINI_MODEL = "gemini-flash-lite-latest"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 # KV namespace dùng để đọc context item digest do main.py ghi vào (xem
 # src/deliver.py::write_items_to_kv). id phải điền sau khi chạy:

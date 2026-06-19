@@ -141,7 +141,10 @@ def filter_stage1(
     # Chia keep_top_n đều cho số type đang có mặt, tối thiểu 4/type để mỗi
     # nhánh luôn có vài candidate cho LLM ranking lựa (không chỉ đúng 1).
     n_types = max(len(by_type), 1)
-    per_type_n = max(keep_top_n // n_types, 4)
+    # Tối thiểu 8/type (tăng từ 4): TARGET_ALLOCATION giờ cần tới 3 item/type
+    # (research), nên pool candidate cho LLM ranking lựa phải rộng hơn allocation
+    # khá nhiều, không chỉ đủ vừa khít.
+    per_type_n = max(keep_top_n // n_types, 8)
 
     for item_type, type_items in by_type.items():
         type_items.sort(key=lambda it: it.score, reverse=True)
@@ -151,15 +154,16 @@ def filter_stage1(
     return result
 
 
-# Cơ cấu mục tiêu sau khi xếp hạng LLM batch (§5): 2 research, 1-2 funding,
-# 1 product, 1 deep_tech, 1 outside -> tổng ~6-7, brief nói "~6 item" nên lấy
-# cận trên thấp hơn (1 funding) làm mặc định để khớp đúng 6 mục digest.
+# Cơ cấu mục tiêu sau khi xếp hạng LLM batch (§5), MỞ RỘNG theo yêu cầu
+# operator (digest "đầy đủ hơn"): tăng từ tổng ~6 lên ~11 item, mỗi mục có
+# nhiều hơn 1 ví dụ để Stage 2 phân tích sâu/đa chiều hơn, không chỉ 1 lát
+# cắt mỗi mục.
 TARGET_ALLOCATION: dict[str, int] = {
-    "research": 2,
-    "funding": 1,
-    "product": 1,
-    "deep_tech": 1,
-    "outside": 1,
+    "research": 3,
+    "funding": 2,
+    "product": 2,
+    "deep_tech": 2,
+    "outside": 2,
 }
 
 

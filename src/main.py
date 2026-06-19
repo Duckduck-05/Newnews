@@ -44,8 +44,10 @@ SEEN_PATH = REPO_ROOT / "state" / "seen.json"
 KB_PATH = REPO_ROOT / "knowledge" / "kb.json"
 ARCHIVE_DIR = REPO_ROOT / "archive"
 
-# Stage 1 cắt còn ~20 item theo §5 (tăng từ 15 vì có thêm nhánh deep_tech).
-STAGE1_KEEP_TOP_N = 20
+# Stage 1 cắt còn ~40 item (tăng từ 20): TARGET_ALLOCATION giờ cần tới 11
+# item/6 type, pool candidate cho LLM ranking phải rộng hơn để có lựa chọn
+# thật, không chỉ đủ khít số lượng allocation.
+STAGE1_KEEP_TOP_N = 40
 
 
 def load_thesis(path: Path = THESIS_PATH) -> ThesisConfig:
@@ -178,8 +180,16 @@ def main() -> None:
         "Stage 3.5 — ghi context item lên Cloudflare KV cho tương tác real-time "
         "(Worker 'Hỏi sâu thêm'/'/refresh'); optional, bỏ qua nếu thiếu secret..."
     )
-    write_items_to_kv(verified_items)
-    inline_keyboard = build_inline_keyboard(verified_items)
+    kv_write_ok = write_items_to_kv(verified_items)
+    # Chỉ gắn nút "Hỏi sâu thêm" khi ghi KV thành công — nếu không, nút sẽ
+    # bấm vào nhưng Worker không tìm thấy context (đã xảy ra thật khi thiếu
+    # secret Cloudflare ở GitHub Actions, gây lỗi "Không tìm thấy context").
+    inline_keyboard = build_inline_keyboard(verified_items) if kv_write_ok else None
+    if not kv_write_ok:
+        logger.warning(
+            "Stage 3.5 — KV write thất bại/bỏ qua -> KHÔNG gắn nút 'Hỏi sâu "
+            "thêm' để tránh nút chết (xem secret CLOUDFLARE_* nếu cần fix)."
+        )
 
     logger.info("Stage 4 — deliver (Telegram nếu không DRY_RUN)...")
     delivered_ok = deliver(analysis.digest_text, dry_run=dry_run, reply_markup=inline_keyboard)
