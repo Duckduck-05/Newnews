@@ -19,6 +19,7 @@ from pathlib import Path
 import yaml
 
 from deliver import build_inline_keyboard, deliver, write_items_to_kv
+from enrich import enrich_items
 from llm_client import LLMClient
 from memory import load_kb, merge_kb_update, save_archive, save_kb, update_seen_ids
 from pipeline import (
@@ -157,6 +158,12 @@ def main() -> None:
             v.item.type, v.source_tier, v.cross_confirmed, v.confidence_emoji, v.item.title[:80],
         )
 
+    logger.info(
+        "Stage 1.6 — enrich: fetch nội dung thật cho item title-only (vd "
+        "Hacker News) để Stage 2 không phải đoán từ tiêu đề trống..."
+    )
+    verified_items, og_image = enrich_items(verified_items)
+
     logger.info("Stage 2 — analyze (LLM thật nếu có key)...")
     kb = load_kb(KB_PATH)
     kb_summary = build_kb_summary(kb)
@@ -192,7 +199,12 @@ def main() -> None:
         )
 
     logger.info("Stage 4 — deliver (Telegram nếu không DRY_RUN)...")
-    delivered_ok = deliver(analysis.digest_text, dry_run=dry_run, reply_markup=inline_keyboard)
+    delivered_ok = deliver(
+        analysis.digest_text,
+        dry_run=dry_run,
+        reply_markup=inline_keyboard,
+        photo_url=og_image,
+    )
     logger.info("Stage 4 — kết quả gửi: %s", "THÀNH CÔNG" if delivered_ok else "THẤT BẠI (xem warning ở trên)")
 
     if analysis.json_parse_error:

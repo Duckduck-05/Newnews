@@ -38,7 +38,7 @@ DEFAULT_TIMEOUT_S = 60
 # Temperature thấp (mặc định API thường ~1.0) để output ổn định/nhất quán
 # giữa các lần gọi — đây vốn là phân tích/báo cáo, không cần sáng tạo cao,
 # và operator báo "chất lượng mỗi lần gửi khác nhau" -> giảm variance.
-DEFAULT_TEMPERATURE = float(os.environ.get("LLM_TEMPERATURE", "0.3"))
+DEFAULT_TEMPERATURE = float(os.environ.get("LLM_TEMPERATURE", "0.2"))
 
 
 class LLMError(RuntimeError):

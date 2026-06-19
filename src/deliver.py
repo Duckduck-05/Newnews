@@ -32,6 +32,7 @@ import requests
 logger = logging.getLogger(__name__)
 
 TELEGRAM_API_URL = "https://api.telegram.org/bot{token}/sendMessage"
+TELEGRAM_PHOTO_API_URL = "https://api.telegram.org/bot{token}/sendPhoto"
 TELEGRAM_MAX_LEN = 4096
 DEFAULT_TIMEOUT_S = 20
 
@@ -132,6 +133,30 @@ def send_telegram_message(
         return True
     except requests.RequestException as exc:
         logger.warning("deliver.py: lỗi gọi Telegram API: %s", exc)
+        return False
+
+
+def send_telegram_photo(token: str, chat_id: str, photo_url: str, caption: str) -> bool:
+    """Gửi ảnh thumbnail (og:image lấy từ enrich.py) kèm caption ngắn, đứng
+    TRƯỚC digest text — chỉ best-effort: ảnh hỏng/link chết KHÔNG được làm
+    fail toàn bộ deliver (xem deliver(), gọi hàm này tách riêng send text)."""
+    url = TELEGRAM_PHOTO_API_URL.format(token=token)
+    try:
+        resp = requests.post(
+            url,
+            json={"chat_id": chat_id, "photo": photo_url, "caption": caption},
+            timeout=DEFAULT_TIMEOUT_S,
+        )
+        if resp.status_code != 200:
+            logger.warning(
+                "deliver.py: Telegram sendPhoto trả status %s: %s — bỏ qua ảnh, "
+                "vẫn gửi digest text bình thường.",
+                resp.status_code, resp.text,
+            )
+            return False
+        return True
+    except requests.RequestException as exc:
+        logger.warning("deliver.py: lỗi gọi Telegram sendPhoto: %s — bỏ qua ảnh.", exc)
         return False
 
 
@@ -252,17 +277,24 @@ def deliver(
     dry_run: bool = True,
     now: Optional[datetime] = None,
     reply_markup: Optional[dict] = None,
+    photo_url: Optional[str] = None,
 ) -> bool:
     """Stage 4 đầy đủ: build message, tách nếu quá dài, gửi (hoặc in console
     nếu DRY_RUN). Trả True nếu mọi phần gửi thành công (hoặc dry_run).
 
     reply_markup (nếu có) chỉ gắn vào CHUNK CUỐI CÙNG — nút "Hỏi sâu thêm"
     nên đứng ngay dưới phần cuối digest, không lặp lại ở message tách giữa.
+
+    photo_url (nếu có, lấy từ enrich.enrich_items): gửi TRƯỚC digest text như
+    1 message ảnh riêng kèm caption ngày — best-effort, lỗi ảnh không chặn
+    việc gửi digest text (operator cần đọc tin hơn cần ảnh đẹp).
     """
     full_message = build_message(digest_text, now=now)
     chunks = split_message(full_message)
 
     if dry_run:
+        if photo_url:
+            print(f"[DRY_RUN] sẽ gửi ảnh thumbnail trước: {photo_url}")
         print("=" * 70)
         print("DRY_RUN=true — KHÔNG gọi Telegram API thật. Nội dung sẽ gửi:")
         print("=" * 70)
@@ -286,6 +318,9 @@ def deliver(
         for chunk in chunks:
             print(chunk)
         return False
+
+    if photo_url:
+        send_telegram_photo(token, chat_id, photo_url, caption=format_header(now))
 
     all_ok = True
     last_idx = len(chunks) - 1
