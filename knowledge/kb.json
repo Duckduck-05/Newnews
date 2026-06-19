@@ -36,6 +36,33 @@
         }
       ]
     },
+    "BioArk": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
+    "Boston Dynamics": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": [
+            "Hyundai",
+            "SoftBank (exited)"
+          ],
+          "round": "acquisition"
+        }
+      ]
+    },
     "Chatwoot": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -108,6 +135,21 @@
         }
       ]
     },
+    "Manus": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": [
+            "Chinese investors (potential)",
+            "Meta (previous)"
+          ],
+          "round": "buyback"
+        }
+      ]
+    },
     "Meshery": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -117,6 +159,20 @@
           "date": "2026-06-19",
           "investors": "unknown",
           "round": "unknown"
+        }
+      ]
+    },
+    "OpenAI": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": [
+            "Amazon"
+          ],
+          "round": "strategic partnership/investment"
         }
       ]
     },
@@ -176,6 +232,12 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Agritech": {
+      "count": 1,
+      "domain": "agriculture/biotech",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
     "Al-doped ZnO": {
       "count": 1,
       "domain": "Semiconductors / Advanced Materials",
@@ -206,6 +268,12 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Large Language Models": {
+      "count": 1,
+      "domain": "AI/NLP",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
     "MinSurf": {
       "count": 1,
       "domain": "materials science",
@@ -227,6 +295,12 @@
     "RLM Library": {
       "count": 1,
       "domain": "Inference Paradigms",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
+    "Robotics": {
+      "count": 1,
+      "domain": "robotics",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
@@ -262,13 +336,31 @@
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
+    "Amazon": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
     "C": {
       "count": 2,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
+    "Chinese investors (potential)": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
     "H": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "Hyundai": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
@@ -280,8 +372,20 @@
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
+    "Meta (previous)": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
     "N": {
       "count": 6,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "SoftBank (exited)": {
+      "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -384,6 +488,18 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "AI agentic engineering": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "AI engineering": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "AI marketplace": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -444,6 +560,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "LLM": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Masked Latent Fields": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -498,6 +620,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Robotics": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Robust Q-learning": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -534,6 +662,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "UX Sound Design": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Vision-Language Models (VLMs)": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -555,13 +689,19 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 3,
+      "count": 4,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "AI Engineering": {
+      "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
@@ -573,13 +713,19 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 3,
+      "count": 4,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Agritech": {
+      "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
@@ -591,6 +737,18 @@
       "notes": []
     },
     "Economic Affordability": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Geopolitics": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "LLM": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
@@ -644,6 +802,18 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Robotics": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "SEA Startup Ecosystem": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Systemic Security Risks": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -663,6 +833,12 @@
       "notes": []
     },
     "Uncertainty Quantification": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Unit Economics": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
