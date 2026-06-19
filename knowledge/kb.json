@@ -72,6 +72,18 @@
         }
       ]
     },
+    "Meshery": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": "unknown",
+          "round": "unknown"
+        }
+      ]
+    },
     "Xero": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -98,6 +110,12 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Lagrange": {
+      "count": 1,
+      "domain": "Autonomous Driving",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
     "Modos E-Paper": {
       "count": 1,
       "domain": "Display Hardware",
@@ -107,6 +125,12 @@
     "RLM Library": {
       "count": 1,
       "domain": "Inference Paradigms",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
+    "Shared Mobile Storage": {
+      "count": 1,
+      "domain": "Energy Storage",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     }
@@ -191,7 +215,7 @@
       "pattern_notes": []
     },
     "k": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -203,13 +227,13 @@
       "pattern_notes": []
     },
     "n": {
-      "count": 6,
+      "count": 9,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
     "o": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -227,13 +251,13 @@
       "pattern_notes": []
     },
     "u": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
     "w": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -270,6 +294,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Masked Latent Fields": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Networking Stack": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -282,7 +312,19 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Ring all-reduce": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Rust": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Service Mesh": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
@@ -320,6 +362,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "AI Operating Model": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Agentic Infrastructure": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -351,6 +399,18 @@
       "notes": []
     },
     "Payment Infrastructure Efficiency": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Physical Infrastructure Control": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Quantum-enhanced Distributed Training": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
