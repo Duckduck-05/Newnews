@@ -24,6 +24,18 @@
         }
       ]
     },
+    "Agent-Reach": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": "not clear",
+          "round": "not clear"
+        }
+      ]
+    },
     "Chatwoot": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -132,6 +144,18 @@
         }
       ]
     },
+    "Sycloop": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "rounds": [
+        {
+          "date": "2026-06-19",
+          "investors": "not clear",
+          "round": "early access"
+        }
+      ]
+    },
     "Xero": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -155,6 +179,18 @@
     "Al-doped ZnO": {
       "count": 1,
       "domain": "Semiconductors / Advanced Materials",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
+    "Differentiable Composite Approximation Framework": {
+      "count": 1,
+      "domain": "Autonomous Underwater Vehicle (AUV) maneuvering modeling",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19"
+    },
+    "Intrinsic Mechanical Quality Factor Determination": {
+      "count": 1,
+      "domain": "High-stress silicon nitride resonators",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
@@ -251,13 +287,13 @@
       "pattern_notes": []
     },
     "a": {
-      "count": 2,
+      "count": 4,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
     "c": {
-      "count": 1,
+      "count": 3,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -269,7 +305,7 @@
       "pattern_notes": []
     },
     "e": {
-      "count": 2,
+      "count": 4,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -293,19 +329,25 @@
       "pattern_notes": []
     },
     "l": {
-      "count": 2,
+      "count": 4,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
     "n": {
-      "count": 9,
+      "count": 11,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
     "o": {
-      "count": 5,
+      "count": 7,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "r": {
+      "count": 2,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -317,7 +359,7 @@
       "pattern_notes": []
     },
     "t": {
-      "count": 4,
+      "count": 6,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
@@ -336,6 +378,18 @@
     }
   },
   "tech": {
+    "AI agent internet access": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "AI marketplace": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Active Learning": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -426,6 +480,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Quantum Kernel Vision Models": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "Recursive Language Models": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -474,6 +534,18 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Vision-Language Models (VLMs)": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Vision-Language-Action (VLA) models": {
+      "count": 1,
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "notes": []
+    },
     "ZFS": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -483,7 +555,7 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
@@ -501,7 +573,7 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
