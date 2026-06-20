@@ -12,6 +12,18 @@
         }
       ]
     },
+    "AMD": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "rounds": [
+        {
+          "date": "2026-06-20",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Acrab": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -162,6 +174,18 @@
         }
       ]
     },
+    "Movadex": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "rounds": [
+        {
+          "date": "2026-06-20",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "OpenAI": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -200,6 +224,18 @@
         }
       ]
     },
+    "StartupWiki": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "rounds": [
+        {
+          "date": "2026-06-20",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Sycloop": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -209,6 +245,18 @@
           "date": "2026-06-19",
           "investors": "not clear",
           "round": "early access"
+        }
+      ]
+    },
+    "Tesla": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "rounds": [
+        {
+          "date": "2026-06-20",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -243,6 +291,12 @@
       "domain": "Semiconductors / Advanced Materials",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Autonomy Stack": {
+      "count": 1,
+      "domain": "AI/Robotics",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20"
     },
     "Differentiable Composite Approximation Framework": {
       "count": 1,
@@ -303,6 +357,18 @@
       "domain": "robotics",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Semiconductor": {
+      "count": 1,
+      "domain": "Hardware",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20"
+    },
+    "Sensor Stack": {
+      "count": 1,
+      "domain": "AI/Robotics",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20"
     },
     "Shared Mobile Storage": {
       "count": 1,
@@ -482,6 +548,12 @@
     }
   },
   "tech": {
+    "AI Agents": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "notes": []
+    },
     "AI agent internet access": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -518,6 +590,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Autonomous Driving": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "notes": []
+    },
     "BigQuery ML": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -540,6 +618,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Generative AI": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
       "notes": []
     },
     "GitHub Security": {
@@ -572,6 +656,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Memory Encryption": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "notes": []
+    },
     "Missing Not At Random (MNAR) Mechanisms": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -600,6 +690,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Open-source intelligence": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
       "notes": []
     },
     "Quantum Kernel Vision Models": {
@@ -689,15 +785,15 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-20",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-20",
       "notes": []
     },
     "AI Engineering": {
@@ -713,9 +809,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-20",
       "notes": []
     },
     "Agritech": {
@@ -730,16 +826,34 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Community-driven Development": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "notes": []
+    },
     "Decentralized Networking": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Deep Tech (Security/Defense)": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "notes": []
+    },
     "Economic Affordability": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Founder Resilience": {
+      "count": 1,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
       "notes": []
     },
     "Geopolitics": {
