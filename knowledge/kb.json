@@ -548,10 +548,16 @@
     }
   },
   "tech": {
-    "AI Agents": {
+    "AI Agent Control": {
       "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
+    "AI Agents": {
+      "count": 2,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-06-20",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "AI agent internet access": {
@@ -650,6 +656,18 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "LLM Memory": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
+    "LLM Observability": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
     "Masked Latent Fields": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -678,6 +696,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Open Foundation Models": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "Open-source Customer Support": {
@@ -785,15 +809,15 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 6,
+      "count": 7,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-20",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-20",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Engineering": {
@@ -809,9 +833,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-20",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "Agritech": {
@@ -926,6 +950,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Sovereign AI": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "Systemic Security Risks": {
