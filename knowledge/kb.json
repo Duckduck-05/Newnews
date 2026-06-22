@@ -49,10 +49,15 @@
       ]
     },
     "Anthropic": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": null,
+          "round": null
+        },
         {
           "date": "2026-06-22",
           "investors": null,
@@ -148,14 +153,19 @@
       ]
     },
     "Google": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "rounds": [
         {
           "date": "2026-06-19",
           "investors": "N/A",
           "round": "Public Product"
+        },
+        {
+          "date": "2026-06-22",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -210,10 +220,22 @@
         }
       ]
     },
-    "OpenAI": {
+    "NVIDIA": {
       "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
+    "OpenAI": {
+      "count": 2,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -221,6 +243,11 @@
             "Amazon"
           ],
           "round": "strategic partnership/investment"
+        },
+        {
+          "date": "2026-06-22",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -245,6 +272,18 @@
           "date": "2026-06-19",
           "investors": "N/A",
           "round": "N/A"
+        }
+      ]
+    },
+    "SignalDesk": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -295,6 +334,18 @@
           "round": "N/A"
         }
       ]
+    },
+    "xAI": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": null,
+          "round": null
+        }
+      ]
     }
   },
   "deep_tech": {
@@ -322,11 +373,17 @@
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22"
     },
-    "Autonomy Stack": {
+    "Autonomous Vehicle Safety": {
       "count": 1,
-      "domain": "AI/Robotics",
+      "domain": "Autonomy Stack",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22"
+    },
+    "Autonomy Stack": {
+      "count": 2,
+      "domain": "Autonomy Stack",
       "first_seen": "2026-06-20",
-      "last_seen": "2026-06-20"
+      "last_seen": "2026-06-22"
     },
     "Differentiable Composite Approximation Framework": {
       "count": 1,
@@ -345,6 +402,12 @@
       "domain": "Decentralized Computing",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "LLM mechanisms": {
+      "count": 1,
+      "domain": "Artificial Intelligence",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22"
     },
     "Lagrange": {
       "count": 1,
@@ -393,6 +456,12 @@
       "domain": "robotics",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Role perception in LLMs": {
+      "count": 1,
+      "domain": "Artificial Intelligence",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22"
     },
     "Semiconductor": {
       "count": 1,
@@ -585,19 +654,19 @@
   },
   "tech": {
     "AI Agent Control": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Agents": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-20",
       "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Workflow": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "notes": []
@@ -648,6 +717,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Chatbots": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "Conformal Prediction": {
@@ -705,7 +780,7 @@
       "notes": []
     },
     "LLM": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -776,6 +851,12 @@
       "last_seen": "2026-06-20",
       "notes": []
     },
+    "Plugins": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
     "Quantum Kernel Vision Models": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -824,6 +905,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "System Prompts": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
     "TimesFM 2.5": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -863,19 +950,19 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 8,
+      "count": 9,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Engineering": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -887,7 +974,7 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -898,8 +985,14 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Autonomy Stack": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
     "Capital Structural Dependency": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -920,6 +1013,12 @@
       "count": 1,
       "first_seen": "2026-06-20",
       "last_seen": "2026-06-20",
+      "notes": []
+    },
+    "Defensibility": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "Economic Affordability": {
@@ -950,6 +1049,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Moat": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "On-premise Sovereignty": {
@@ -1004,6 +1109,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "SEA startup ecosystem": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "notes": []
     },
     "Sovereign AI": {
