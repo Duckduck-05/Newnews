@@ -92,6 +92,18 @@
         }
       ]
     },
+    "ByteDance": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "Chatwoot": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -113,6 +125,18 @@
           "date": "2026-06-19",
           "investors": "N/A",
           "round": "End of life"
+        }
+      ]
+    },
+    "DHL": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -275,6 +299,18 @@
         }
       ]
     },
+    "Seedcamp": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": "Not specified, but they are the investor",
+          "round": "Fund VII"
+        }
+      ]
+    },
     "SignalDesk": {
       "count": 1,
       "first_seen": "2026-06-22",
@@ -323,6 +359,18 @@
         }
       ]
     },
+    "Unsloth": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "rounds": [
+        {
+          "date": "2026-06-22",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "Xero": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -354,6 +402,12 @@
       "domain": "AI Infrastructure",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Advanced Materials": {
+      "count": 1,
+      "domain": "Energy",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22"
     },
     "Agritech": {
       "count": 1,
@@ -439,6 +493,12 @@
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22"
     },
+    "Nuclear Reactors": {
+      "count": 1,
+      "domain": "Energy",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22"
+    },
     "Perovskite Nanocrystals": {
       "count": 1,
       "domain": "Optoelectronics / Advanced Materials",
@@ -486,9 +546,21 @@
       "domain": "materials science",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Wind-Powered Cargo Ships": {
+      "count": 1,
+      "domain": "Logistics/Clean Energy",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22"
     }
   },
   "investors": {
+    ",": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "pattern_notes": []
+    },
     "-": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -496,15 +568,15 @@
       "pattern_notes": []
     },
     "/": {
-      "count": 5,
+      "count": 8,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "A": {
-      "count": 5,
+      "count": 8,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "Amazon": {
@@ -550,9 +622,9 @@
       "pattern_notes": []
     },
     "N": {
-      "count": 6,
+      "count": 10,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "SoftBank (exited)": {
@@ -562,39 +634,51 @@
       "pattern_notes": []
     },
     "a": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "pattern_notes": []
+    },
+    "b": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "c": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "d": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "e": {
-      "count": 4,
+      "count": 10,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "pattern_notes": []
+    },
+    "f": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "h": {
-      "count": 2,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "i": {
-      "count": 5,
+      "count": 8,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "k": {
@@ -610,39 +694,51 @@
       "pattern_notes": []
     },
     "n": {
-      "count": 11,
+      "count": 12,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "o": {
-      "count": 7,
+      "count": 9,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "pattern_notes": []
+    },
+    "p": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "r": {
-      "count": 2,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "s": {
-      "count": 3,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "t": {
-      "count": 6,
+      "count": 11,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "u": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "pattern_notes": []
+    },
+    "v": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "pattern_notes": []
     },
     "w": {
@@ -650,17 +746,23 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "pattern_notes": []
+    },
+    "y": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "pattern_notes": []
     }
   },
   "tech": {
     "AI Agent Control": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Agents": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-20",
       "last_seen": "2026-06-22",
       "notes": []
@@ -749,6 +851,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "GGUFs": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
     "Generative AI": {
       "count": 1,
       "first_seen": "2026-06-20",
@@ -780,7 +888,7 @@
       "notes": []
     },
     "LLM": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -792,6 +900,12 @@
       "notes": []
     },
     "LLM Observability": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
+    "Local AI Inference": {
       "count": 1,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
@@ -950,13 +1064,13 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 9,
+      "count": 10,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 8,
+      "count": 9,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -974,7 +1088,7 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 8,
+      "count": 9,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -992,7 +1106,7 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "notes": []
@@ -1016,6 +1130,12 @@
       "notes": []
     },
     "Defensibility": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
+    "ESG/Sustainability in Logistics": {
       "count": 1,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
@@ -1052,6 +1172,12 @@
       "notes": []
     },
     "Moat": {
+      "count": 1,
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "notes": []
+    },
+    "Nuclear Energy Revival": {
       "count": 1,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
