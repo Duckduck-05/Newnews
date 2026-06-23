@@ -34,6 +34,11 @@ const CONV_MAX_ENTRIES = 12;
 // giữ qua nhiều ngày, nhưng không vĩnh viễn để tránh KV phình theo thời gian.
 const CONV_TTL_SECONDS = 7 * 24 * 3600;
 
+// Sau khi bấm "Hỏi sâu thêm", operator có 10 phút để gõ câu hỏi RIÊNG về
+// đúng item đó (key "pending_qa:<chatId>" trong KV) — quá thời gian này,
+// tin nhắn tự do tiếp theo coi như câu hỏi chung về cả digest như cũ.
+const PENDING_QA_TTL_SECONDS = 10 * 60;
+
 export default {
   async fetch(request, env, ctx) {
     if (request.method !== "POST") {
@@ -116,6 +121,18 @@ async function handleMessage(message, env) {
     return;
   }
 
+  // Nếu operator vừa bấm "Hỏi sâu thêm" trong 10 phút gần đây (xem
+  // PENDING_QA_TTL_SECONDS), coi tin nhắn tự do tiếp theo là câu hỏi RIÊNG
+  // về đúng item đó, không phải câu hỏi chung cả digest -> dùng đúng context
+  // item đó cho prompt, trả lời tập trung hơn. Xoá pending ngay (dùng 1 lần)
+  // để câu hỏi sau đó không bị gán nhầm vào item cũ.
+  const pendingItemKey = await getPendingItemQuestion(env, chatId);
+  if (pendingItemKey) {
+    await clearPendingItemQuestion(env, chatId);
+    await handleItemSpecificQuestion(chatId, pendingItemKey, text, env);
+    return;
+  }
+
   await handleFreeTextQuestion(chatId, text, env);
 }
 
@@ -128,8 +145,8 @@ Lệnh có sẵn:
 • /refresh — chạy lại pipeline ngay (digest mới sẽ tới trong vài phút).
 • /trends — xem xu hướng tích luỹ (themes/companies/tech xuất hiện nhiều lần qua các ngày), không chỉ digest hôm nay.
 • /forget — xoá lịch sử hội thoại đã nhớ với bot, bắt đầu lại từ đầu.
-• Bấm nút "🔍 Hỏi sâu thêm" dưới mỗi mục digest để hỏi sâu riêng item đó.
-• Hoặc gõ thẳng câu hỏi tự do — bot nhớ vài lượt hỏi-đáp gần nhất với bạn nên có thể hỏi tiếp/nối ý, không cần lặp lại context.
+• Bấm nút "🔍 Hỏi sâu thêm" dưới mỗi mục digest để nhận phân tích mặc định — SAU ĐÓ có 10 phút để gõ tiếp câu hỏi RIÊNG của bạn về đúng item đó (vd "so với X thì sao?").
+• Hoặc gõ thẳng câu hỏi tự do (không vừa bấm nút) — bot dùng cả digest gần nhất làm nền, nhớ vài lượt hỏi-đáp gần nhất với bạn nên có thể hỏi tiếp/nối ý, không cần lặp lại context.
 
 👇 Hoặc bấm nút nhanh dưới đây:`;
 
@@ -331,10 +348,18 @@ async function handleCallbackQuery(callbackQuery, env) {
     await sendMessage(env, chatId, result.error);
     return;
   }
-  await sendMessage(env, chatId, result.text);
+  await sendMessage(
+    env,
+    chatId,
+    `${result.text}\n\n💬 Gõ tiếp câu hỏi RIÊNG của bạn về mục này trong 10 phút (vd "so với X thì sao?"), hoặc bỏ qua để hỏi tự do bình thường.`
+  );
   // Ghi vào lịch sử hội thoại để nếu operator hỏi tiếp tự do ngay sau đó
   // ("vậy nó khác gì X?"), bot vẫn nhớ vừa đào sâu item nào.
   await appendConversation(env, chatId, `[Hỏi sâu] ${itemTitle}`, result.text);
+  // Mở "cửa sổ" 10 phút để tin nhắn tự do tiếp theo của CHÍNH chat này được
+  // hiểu là câu hỏi riêng về đúng item này (xem handleMessage), không phải
+  // câu hỏi chung cả digest.
+  await setPendingItemQuestion(env, chatId, key);
 }
 
 function buildDeepDivePrompt(itemCtx) {
@@ -353,6 +378,110 @@ ${itemCtx.raw_text || "(không có raw_text)"}
 """
 
 Hãy giải thích sâu hơn: cơ chế/why-now/bối cảnh, dựa đúng nội dung trên.`;
+}
+
+// ---------------------------------------------------------------------
+// "pending_qa:<chatId>" — cửa sổ 10 phút sau khi bấm "Hỏi sâu thêm" để
+// operator gõ câu hỏi RIÊNG về đúng item đó (xem PENDING_QA_TTL_SECONDS).
+// ---------------------------------------------------------------------
+
+async function setPendingItemQuestion(env, chatId, itemKey) {
+  if (!env.DIGEST_KV) return;
+  try {
+    await env.DIGEST_KV.put(`pending_qa:${chatId}`, itemKey, {
+      expirationTtl: PENDING_QA_TTL_SECONDS,
+    });
+  } catch (err) {
+    console.error("setPendingItemQuestion lỗi:", err);
+  }
+}
+
+async function getPendingItemQuestion(env, chatId) {
+  if (!env.DIGEST_KV) return null;
+  try {
+    return await env.DIGEST_KV.get(`pending_qa:${chatId}`);
+  } catch (err) {
+    console.error("getPendingItemQuestion lỗi:", err);
+    return null;
+  }
+}
+
+async function clearPendingItemQuestion(env, chatId) {
+  if (!env.DIGEST_KV) return;
+  try {
+    await env.DIGEST_KV.delete(`pending_qa:${chatId}`);
+  } catch (err) {
+    console.error("clearPendingItemQuestion lỗi:", err);
+  }
+}
+
+// ---------------------------------------------------------------------
+// Câu hỏi RIÊNG về 1 item cụ thể (sau khi bấm "Hỏi sâu thêm") -> dùng đúng
+// context item đó, KHÔNG dùng toàn bộ "latest_items" như free-text thường,
+// để câu trả lời tập trung đúng vào item operator vừa quan tâm.
+// ---------------------------------------------------------------------
+
+async function handleItemSpecificQuestion(chatId, itemKey, question, env) {
+  if (!env.DIGEST_KV) {
+    await sendMessage(env, chatId, "Worker thiếu binding KV (DIGEST_KV) — không đọc được context item.");
+    return;
+  }
+
+  let raw;
+  try {
+    raw = await env.DIGEST_KV.get(`item:${itemKey}`);
+  } catch (err) {
+    await sendMessage(env, chatId, `Lỗi đọc KV: ${escapeForTelegram(String(err))}`);
+    return;
+  }
+
+  if (!raw) {
+    // Context item đã hết hạn (48h) hoặc bị xoá -> fallback về hỏi chung cả
+    // digest thay vì báo lỗi cứng, vẫn cố trả lời được câu hỏi của operator.
+    await handleFreeTextQuestion(chatId, question, env);
+    return;
+  }
+
+  let itemCtx;
+  try {
+    itemCtx = JSON.parse(raw);
+  } catch (err) {
+    await handleFreeTextQuestion(chatId, question, env);
+    return;
+  }
+
+  const history = await getConversation(env, chatId);
+  const prompt = buildItemQuestionPrompt(itemCtx, history, question);
+  const result = await callGemini(env, prompt);
+  if (!result.ok) {
+    await sendMessage(env, chatId, result.error);
+    return;
+  }
+  await sendMessage(env, chatId, result.text);
+  await appendConversation(env, chatId, question, result.text);
+}
+
+function buildItemQuestionPrompt(itemCtx, history, question) {
+  const historyBlock = formatConversationHistory(history);
+  return `Operator đang hỏi tiếp 1 câu hỏi RIÊNG về item cụ thể dưới đây (không phải
+toàn bộ digest). CHỈ dùng đúng raw_text đã cho, đừng bịa thêm chi tiết không có
+trong nguồn. Nếu raw_text không đủ thông tin để trả lời, nói thẳng "nguồn không
+đủ chi tiết" thay vì suy diễn. Trả lời tiếng Việt, ngắn gọn.
+
+LỊCH SỬ HỘI THOẠI GẦN ĐÂY:
+${historyBlock}
+
+Item đang được hỏi:
+Loại: ${itemCtx.type || "không rõ"}
+Tiêu đề: ${itemCtx.title || "không rõ"}
+URL: ${itemCtx.url || "không rõ"}
+Confidence: ${itemCtx.confidence || "không rõ"}
+Nội dung gốc (raw_text, rút gọn):
+"""
+${itemCtx.raw_text || "(không có raw_text)"}
+"""
+
+Câu hỏi của operator: ${question}`;
 }
 
 // ---------------------------------------------------------------------
