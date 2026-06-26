@@ -24,6 +24,18 @@
         }
       ]
     },
+    "AMC Robotics Corporation": {
+      "count": 1,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "rounds": [
+        {
+          "date": "2026-06-26",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "AMD": {
       "count": 1,
       "first_seen": "2026-06-20",
@@ -33,6 +45,18 @@
           "date": "2026-06-20",
           "investors": null,
           "round": null
+        }
+      ]
+    },
+    "AWS": {
+      "count": 1,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "rounds": [
+        {
+          "date": "2026-06-26",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -61,9 +85,9 @@
       ]
     },
     "Anthropic": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-24",
+      "last_seen": "2026-06-26",
       "rounds": [
         {
           "date": "2026-06-22",
@@ -86,6 +110,11 @@
           "date": "2026-06-24",
           "investors": null,
           "round": null
+        },
+        {
+          "date": "2026-06-26",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -171,6 +200,18 @@
       "rounds": [
         {
           "date": "2026-06-22",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
+    "Dassault Systèmes": {
+      "count": 1,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "rounds": [
+        {
+          "date": "2026-06-26",
           "investors": "N/A",
           "round": "N/A"
         }
@@ -394,9 +435,9 @@
       ]
     },
     "OpenAI": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-24",
+      "last_seen": "2026-06-26",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -414,6 +455,11 @@
           "date": "2026-06-24",
           "investors": null,
           "round": null
+        },
+        {
+          "date": "2026-06-26",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -689,6 +735,12 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Product Lifecycle Management (PLM)": {
+      "count": 1,
+      "domain": "Software Engineering",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
     "RFIC design": {
       "count": 1,
       "domain": "AI-driven chip design",
@@ -758,15 +810,15 @@
       "pattern_notes": []
     },
     "/": {
-      "count": 8,
+      "count": 13,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-06-26",
       "pattern_notes": []
     },
     "A": {
-      "count": 8,
+      "count": 13,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-06-26",
       "pattern_notes": []
     },
     "Amazon": {
@@ -818,9 +870,9 @@
       "pattern_notes": []
     },
     "N": {
-      "count": 10,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-06-26",
       "pattern_notes": []
     },
     "S": {
@@ -958,19 +1010,19 @@
   },
   "tech": {
     "AI Agent Control": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-26",
       "notes": []
     },
     "AI Agents": {
-      "count": 8,
+      "count": 9,
       "first_seen": "2026-06-20",
       "last_seen": "2026-06-26",
       "notes": []
     },
     "AI Workflow": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-26",
       "notes": []
@@ -1102,7 +1154,7 @@
       "notes": []
     },
     "LLM": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-26",
       "notes": []
@@ -1290,19 +1342,19 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-26",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 11,
+      "count": 12,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-24",
+      "last_seen": "2026-06-26",
       "notes": []
     },
     "AI Engineering": {
-      "count": 6,
+      "count": 7,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-26",
       "notes": []
@@ -1314,7 +1366,7 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 12,
+      "count": 13,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-26",
       "notes": []
@@ -1332,7 +1384,7 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 8,
+      "count": 9,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-26",
       "notes": []
@@ -1488,9 +1540,9 @@
       "notes": []
     },
     "Robotics": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-06-26",
       "notes": []
     },
     "SEA Fintech / Payments / Startup Ecosystem": {
@@ -1503,6 +1555,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "SEA fintech / payments / startup ecosystem": {
+      "count": 1,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
       "notes": []
     },
     "SEA startup ecosystem": {
