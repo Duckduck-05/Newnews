@@ -696,6 +696,12 @@
     }
   },
   "deep_tech": {
+    "AI Model Optimization": {
+      "count": 1,
+      "domain": "Knowledge Distillation",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29"
+    },
     "Acrab Compute": {
       "count": 1,
       "domain": "AI Infrastructure",
@@ -779,6 +785,12 @@
       "domain": "Energy & Grid",
       "first_seen": "2026-06-23",
       "last_seen": "2026-06-23"
+    },
+    "High-Performance Computing": {
+      "count": 1,
+      "domain": "GPU Acceleration",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29"
     },
     "Intrinsic Mechanical Quality Factor Determination": {
       "count": 1,
@@ -1133,9 +1145,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 10,
+      "count": 11,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "AI Workflow": {
@@ -1178,6 +1190,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Agent Multiplexer": {
+      "count": 1,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "Agentic compute stack": {
@@ -1258,6 +1276,12 @@
       "last_seen": "2026-06-22",
       "notes": []
     },
+    "GPU Computing": {
+      "count": 1,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "notes": []
+    },
     "Generative AI": {
       "count": 2,
       "first_seen": "2026-06-20",
@@ -1300,10 +1324,16 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Knowledge Distillation": {
+      "count": 1,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "notes": []
+    },
     "LLM": {
-      "count": 9,
+      "count": 10,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "LLM KV cache trimming": {
@@ -1468,6 +1498,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Settlement Intelligence": {
+      "count": 1,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "notes": []
+    },
     "Speculative decoding": {
       "count": 1,
       "first_seen": "2026-06-27",
@@ -1519,15 +1555,15 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 16,
+      "count": 17,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "AI Engineering": {
@@ -1543,9 +1579,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "Agritech": {
@@ -1564,6 +1600,12 @@
       "count": 1,
       "first_seen": "2026-06-27",
       "last_seen": "2026-06-27",
+      "notes": []
+    },
+    "Capital Allocation": {
+      "count": 1,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "Capital Structural Dependency": {
@@ -1651,9 +1693,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "Geopolitics": {
@@ -1729,9 +1771,9 @@
       "notes": []
     },
     "Quant Trading": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "Quantum-enhanced Distributed Training": {
@@ -1756,6 +1798,12 @@
       "count": 2,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-26",
+      "notes": []
+    },
+    "SEA Fintech": {
+      "count": 1,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
       "notes": []
     },
     "SEA Fintech / Payments / Startup Ecosystem": {
