@@ -793,6 +793,20 @@
         }
       ]
     },
+    "etaily": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "rounds": [
+        {
+          "date": "2026-07-02",
+          "investors": [
+            "Vynn Capital"
+          ],
+          "round": "strategic investment"
+        }
+      ]
+    },
     "lyogavin": {
       "count": 1,
       "first_seen": "2026-06-23",
@@ -927,6 +941,12 @@
       "first_seen": "2026-06-26",
       "last_seen": "2026-06-26"
     },
+    "GPU-Parallel Linearization Error Bounds": {
+      "count": 1,
+      "domain": "Optimal Control",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02"
+    },
     "Grid Capacity Utilization": {
       "count": 1,
       "domain": "Energy & Grid",
@@ -1029,6 +1049,12 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Real-Time Robust Optimal Control": {
+      "count": 1,
+      "domain": "Nonlinear and Neural Network Dynamics",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02"
+    },
     "Robotic-assisted prostate cancer care platform": {
       "count": 1,
       "domain": "robotics",
@@ -1076,6 +1102,18 @@
       "domain": "Logistics/Clean Energy",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22"
+    },
+    "World Action Models": {
+      "count": 1,
+      "domain": "Robotics",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02"
+    },
+    "World Models": {
+      "count": 1,
+      "domain": "Robotics",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02"
     },
     "openpilot": {
       "count": 1,
@@ -1209,6 +1247,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "Vynn Capital": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "pattern_notes": []
     },
     "ZIG Ventures": {
@@ -1357,6 +1401,12 @@
       "last_seen": "2026-06-30",
       "notes": []
     },
+    "AI Gateway": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "AI Workflow": {
       "count": 8,
       "first_seen": "2026-06-22",
@@ -1417,6 +1467,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Auto-fallback": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Autonomous Driving": {
       "count": 1,
       "first_seen": "2026-06-20",
@@ -1435,6 +1491,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Block-diffusion language models": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "C/CUDA": {
       "count": 1,
       "first_seen": "2026-06-28",
@@ -1447,10 +1509,22 @@
       "last_seen": "2026-06-22",
       "notes": []
     },
+    "Combinatorial Optimization": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Conformal Prediction": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Custom trained AI enhancement model": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "Diffusion Models": {
@@ -1517,6 +1591,12 @@
       "count": 1,
       "first_seen": "2026-06-26",
       "last_seen": "2026-06-26",
+      "notes": []
+    },
+    "Generative Reasoning Re-rankers": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "GitHub Security": {
@@ -1609,16 +1689,40 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Multimodal APIs": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Networking Stack": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Neural Certificate Pricing": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Off-Policy Evaluation": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "On-device STT": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "Online Feedback-Driven Search": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "Open Foundation Models": {
@@ -1723,6 +1827,12 @@
       "last_seen": "2026-06-29",
       "notes": []
     },
+    "Sequentially-Controlled Interactive Multi-Particle Flow-Maps": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Service Mesh": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -1760,9 +1870,9 @@
       "notes": []
     },
     "Token compression": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "UX Sound Design": {
@@ -1792,21 +1902,21 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 19,
+      "count": 20,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 16,
+      "count": 17,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "AI Engineering": {
-      "count": 11,
+      "count": 12,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "AI Operating Model": {
@@ -1816,9 +1926,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 17,
+      "count": 18,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "Agritech": {
@@ -1846,9 +1956,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 12,
+      "count": 13,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "Community-driven Development": {
