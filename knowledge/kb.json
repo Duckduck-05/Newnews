@@ -96,6 +96,18 @@
         }
       ]
     },
+    "AllenAI": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "rounds": [
+        {
+          "date": "2026-07-02",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Amity": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -386,6 +398,18 @@
         }
       ]
     },
+    "Infineon": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "rounds": [
+        {
+          "date": "2026-07-02",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Instagram": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -431,6 +455,22 @@
           "date": "2026-06-23",
           "investors": null,
           "round": null
+        }
+      ]
+    },
+    "LinqAlpha": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "rounds": [
+        {
+          "date": "2026-07-02",
+          "investors": [
+            "AVP",
+            "Atinum Investment",
+            "GFT Ventures"
+          ],
+          "round": "Series A"
         }
       ]
     },
@@ -513,12 +553,17 @@
       ]
     },
     "Microsoft": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24",
+      "last_seen": "2026-07-02",
       "rounds": [
         {
           "date": "2026-06-24",
+          "investors": null,
+          "round": null
+        },
+        {
+          "date": "2026-07-02",
           "investors": null,
           "round": null
         }
@@ -572,6 +617,21 @@
         }
       ]
     },
+    "OMOWAY": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "rounds": [
+        {
+          "date": "2026-07-02",
+          "investors": [
+            "Lochpine Capital",
+            "CATL"
+          ],
+          "round": "Series A/A+"
+        }
+      ]
+    },
     "OpenAI": {
       "count": 4,
       "first_seen": "2026-06-19",
@@ -598,6 +658,18 @@
           "date": "2026-06-26",
           "investors": "N/A",
           "round": "N/A"
+        }
+      ]
+    },
+    "Palantir": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "rounds": [
+        {
+          "date": "2026-07-02",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -1147,10 +1219,22 @@
       "last_seen": "2026-06-30",
       "pattern_notes": []
     },
+    "AVP": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "pattern_notes": []
+    },
     "Amazon": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "pattern_notes": []
+    },
+    "Atinum Investment": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "pattern_notes": []
     },
     "B": {
@@ -1163,6 +1247,12 @@
       "count": 5,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-30",
+      "pattern_notes": []
+    },
+    "CATL": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "pattern_notes": []
     },
     "Chinese investors (potential)": {
@@ -1195,6 +1285,12 @@
       "last_seen": "2026-06-30",
       "pattern_notes": []
     },
+    "GFT Ventures": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "pattern_notes": []
+    },
     "H": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -1211,6 +1307,12 @@
       "count": 2,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-30",
+      "pattern_notes": []
+    },
+    "Lochpine Capital": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "pattern_notes": []
     },
     "Menlo Ventures": {
@@ -1396,9 +1498,15 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "AI Education": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "AI Gateway": {
@@ -1545,6 +1653,18 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Electric Motorcycles": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "Embedding Models": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Fintech engineering patterns": {
       "count": 1,
       "first_seen": "2026-06-27",
@@ -1617,6 +1737,12 @@
       "last_seen": "2026-06-22",
       "notes": []
     },
+    "Intelligent Power Management Chips": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Knowledge Conflict Resolution for LLM": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -1630,9 +1756,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 12,
+      "count": 13,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "LLM KV cache trimming": {
@@ -1702,6 +1828,12 @@
       "notes": []
     },
     "Neural Certificate Pricing": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "OCR": {
       "count": 1,
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02",
@@ -1902,7 +2034,7 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-19",
       "last_seen": "2026-07-02",
       "notes": []
@@ -1913,8 +2045,14 @@
       "last_seen": "2026-07-02",
       "notes": []
     },
+    "AI Education": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "AI Engineering": {
-      "count": 12,
+      "count": 13,
       "first_seen": "2026-06-19",
       "last_seen": "2026-07-02",
       "notes": []
@@ -1926,7 +2064,7 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 18,
+      "count": 19,
       "first_seen": "2026-06-19",
       "last_seen": "2026-07-02",
       "notes": []
@@ -1956,7 +2094,7 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-06-19",
       "last_seen": "2026-07-02",
       "notes": []
@@ -2015,6 +2153,12 @@
       "last_seen": "2026-06-28",
       "notes": []
     },
+    "EV/Mobility": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "notes": []
+    },
     "Economic Affordability": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -2049,6 +2193,12 @@
       "count": 3,
       "first_seen": "2026-06-26",
       "last_seen": "2026-06-29",
+      "notes": []
+    },
+    "Geopolitical/Sovereignty": {
+      "count": 1,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
       "notes": []
     },
     "Geopolitics": {
