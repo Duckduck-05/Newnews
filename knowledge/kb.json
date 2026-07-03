@@ -805,6 +805,18 @@
         }
       ]
     },
+    "Ubicloud": {
+      "count": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "rounds": [
+        {
+          "date": "2026-07-03",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "Unsloth": {
       "count": 1,
       "first_seen": "2026-06-22",
@@ -850,6 +862,18 @@
           "date": "2026-06-27",
           "investors": null,
           "round": null
+        }
+      ]
+    },
+    "dConstruct Technologies": {
+      "count": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "rounds": [
+        {
+          "date": "2026-07-03",
+          "investors": "National Robotics Programme of Singapore",
+          "round": "Series A"
         }
       ]
     },
@@ -966,10 +990,10 @@
       "last_seen": "2026-06-22"
     },
     "Autonomy Stack": {
-      "count": 4,
-      "domain": "EV & Autonomy",
+      "count": 5,
+      "domain": "Robotics/AI",
       "first_seen": "2026-06-20",
-      "last_seen": "2026-06-28"
+      "last_seen": "2026-07-03"
     },
     "Battery Chemistry": {
       "count": 1,
@@ -1001,6 +1025,12 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Energy Grid Stability": {
+      "count": 1,
+      "domain": "Energy",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03"
+    },
     "Energy History": {
       "count": 1,
       "domain": "Electrical Engineering",
@@ -1008,10 +1038,10 @@
       "last_seen": "2026-06-30"
     },
     "Energy Storage": {
-      "count": 1,
-      "domain": "energy & battery",
+      "count": 2,
+      "domain": "Energy",
       "first_seen": "2026-06-26",
-      "last_seen": "2026-06-26"
+      "last_seen": "2026-07-03"
     },
     "GPU-Parallel Linearization Error Bounds": {
       "count": 1,
@@ -1139,6 +1169,12 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Robotics for GPS-denied environments": {
+      "count": 1,
+      "domain": "Robotics",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03"
+    },
     "Role perception in LLMs": {
       "count": 1,
       "domain": "Artificial Intelligence",
@@ -1208,15 +1244,15 @@
       "pattern_notes": []
     },
     "/": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "A": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "AVP": {
@@ -1328,21 +1364,27 @@
       "pattern_notes": []
     },
     "N": {
-      "count": 16,
+      "count": 18,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "P": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
+      "pattern_notes": []
+    },
+    "R": {
+      "count": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "S": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "SoftBank (exited)": {
@@ -1364,21 +1406,21 @@
       "pattern_notes": []
     },
     "a": {
-      "count": 10,
+      "count": 14,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "b": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "c": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "d": {
@@ -1388,15 +1430,21 @@
       "pattern_notes": []
     },
     "e": {
-      "count": 14,
+      "count": 16,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "f": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-07-03",
+      "pattern_notes": []
+    },
+    "g": {
+      "count": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "h": {
@@ -1406,9 +1454,9 @@
       "pattern_notes": []
     },
     "i": {
-      "count": 12,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "k": {
@@ -1418,51 +1466,51 @@
       "pattern_notes": []
     },
     "l": {
-      "count": 9,
+      "count": 10,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "m": {
-      "count": 1,
+      "count": 3,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "n": {
-      "count": 15,
+      "count": 17,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "o": {
-      "count": 14,
+      "count": 20,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "p": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "r": {
-      "count": 6,
+      "count": 9,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "s": {
-      "count": 6,
+      "count": 7,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "t": {
-      "count": 13,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
       "pattern_notes": []
     },
     "u": {
@@ -2034,9 +2082,9 @@
   },
   "themes": {
     "AI Application Layer": {
-      "count": 21,
+      "count": 22,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
       "notes": []
     },
     "AI Confidence Gap": {
@@ -2052,9 +2100,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
       "notes": []
     },
     "AI Operating Model": {
@@ -2064,9 +2112,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 19,
+      "count": 20,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
       "notes": []
     },
     "Agritech": {
@@ -2094,9 +2142,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
       "notes": []
     },
     "Community-driven Development": {
@@ -2177,6 +2225,12 @@
       "last_seen": "2026-06-23",
       "notes": []
     },
+    "Energy Grid": {
+      "count": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "notes": []
+    },
     "Fintech Engineering": {
       "count": 1,
       "first_seen": "2026-06-27",
@@ -2229,6 +2283,12 @@
       "count": 1,
       "first_seen": "2026-06-29",
       "last_seen": "2026-06-29",
+      "notes": []
+    },
+    "Market Microstructure": {
+      "count": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
       "notes": []
     },
     "Material Science for Optoelectronics": {
@@ -2297,6 +2357,12 @@
       "last_seen": "2026-06-28",
       "notes": []
     },
+    "Privacy-focused Products": {
+      "count": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "notes": []
+    },
     "Privacy/Data Ethics": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -2328,9 +2394,9 @@
       "notes": []
     },
     "Robotics": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-07-03",
       "notes": []
     },
     "SEA Fintech": {
@@ -2379,6 +2445,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Talent Gap in Deep Tech": {
+      "count": 1,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
       "notes": []
     },
     "Time Series Foundation Models": {
