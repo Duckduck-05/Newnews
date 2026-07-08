@@ -290,6 +290,18 @@
         }
       ]
     },
+    "Clay Seal": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "rounds": [
+        {
+          "date": "2026-07-08",
+          "investors": [],
+          "round": null
+        }
+      ]
+    },
     "Continue": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -545,6 +557,18 @@
         }
       ]
     },
+    "LINE MAN Wongnai": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "rounds": [
+        {
+          "date": "2026-07-08",
+          "investors": [],
+          "round": null
+        }
+      ]
+    },
     "LinqAlpha": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -695,6 +719,18 @@
         }
       ]
     },
+    "Mtok.market": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "rounds": [
+        {
+          "date": "2026-07-08",
+          "investors": [],
+          "round": null
+        }
+      ]
+    },
     "NVIDIA": {
       "count": 1,
       "first_seen": "2026-06-22",
@@ -716,6 +752,18 @@
           "date": "2026-06-26",
           "investors": "Swedfund",
           "round": "Fund III"
+        }
+      ]
+    },
+    "Nivalis Energy Europe": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "rounds": [
+        {
+          "date": "2026-07-08",
+          "investors": [],
+          "round": null
         }
       ]
     },
@@ -1180,6 +1228,12 @@
       "first_seen": "2026-06-26",
       "last_seen": "2026-06-26"
     },
+    "Battery Technology": {
+      "count": 1,
+      "domain": "energy & pin",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08"
+    },
     "Contextual Emotion AI": {
       "count": 1,
       "domain": "AI/Cognitive Science",
@@ -1198,6 +1252,18 @@
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
     },
+    "Electric Axle": {
+      "count": 1,
+      "domain": "EV & autonomous",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08"
+    },
+    "Electric Vehicles": {
+      "count": 1,
+      "domain": "EV & autonomous",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08"
+    },
     "Energy Grid Stability": {
       "count": 1,
       "domain": "Energy",
@@ -1211,10 +1277,10 @@
       "last_seen": "2026-06-30"
     },
     "Energy Storage": {
-      "count": 2,
-      "domain": "Energy",
+      "count": 3,
+      "domain": "energy & pin",
       "first_seen": "2026-06-26",
-      "last_seen": "2026-07-03"
+      "last_seen": "2026-07-08"
     },
     "Fab2": {
       "count": 1,
@@ -1341,6 +1407,12 @@
       "domain": "Nonlinear and Neural Network Dynamics",
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02"
+    },
+    "Regenerative Braking": {
+      "count": 1,
+      "domain": "EV & autonomous",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08"
     },
     "Robotic-assisted prostate cancer care platform": {
       "count": 1,
@@ -1797,9 +1869,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 18,
+      "count": 19,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "AI Education": {
@@ -1812,6 +1884,12 @@
       "count": 1,
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "AI Inference": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "AI Workflow": {
@@ -1944,6 +2022,12 @@
       "count": 1,
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "Decentralized Markets": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "Diffusion Models": {
@@ -2276,6 +2360,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Runtime Security": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "notes": []
+    },
     "Rust": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -2392,6 +2482,12 @@
     }
   },
   "themes": {
+    "AI Agent Security": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "notes": []
+    },
     "AI Agents": {
       "count": 1,
       "first_seen": "2026-07-04",
@@ -2405,9 +2501,9 @@
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "AI Education": {
@@ -2420,6 +2516,12 @@
       "count": 17,
       "first_seen": "2026-06-19",
       "last_seen": "2026-07-07",
+      "notes": []
+    },
+    "AI Infrastructure": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "AI Operating Model": {
@@ -2441,9 +2543,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 23,
+      "count": 24,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "Agritech": {
@@ -2470,6 +2572,12 @@
       "last_seen": "2026-07-05",
       "notes": []
     },
+    "Capital Allocation in SEA": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "notes": []
+    },
     "Capital Structural Dependency": {
       "count": 18,
       "first_seen": "2026-06-19",
@@ -2486,6 +2594,12 @@
       "count": 1,
       "first_seen": "2026-06-20",
       "last_seen": "2026-06-20",
+      "notes": []
+    },
+    "Decentralized AI Compute": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "Decentralized Networking": {
@@ -2536,6 +2650,12 @@
       "last_seen": "2026-06-28",
       "notes": []
     },
+    "EV Adoption": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "notes": []
+    },
     "EV/Mobility": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -2564,6 +2684,12 @@
       "count": 1,
       "first_seen": "2026-07-03",
       "last_seen": "2026-07-03",
+      "notes": []
+    },
+    "Enterprise AI Adoption Challenges": {
+      "count": 1,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "Fintech Engineering": {
@@ -2633,9 +2759,9 @@
       "notes": []
     },
     "Market Microstructure": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "Material Science for Optoelectronics": {
@@ -2843,9 +2969,9 @@
       "notes": []
     },
     "Unit Economics": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-07-08",
       "notes": []
     },
     "Unit economics": {
