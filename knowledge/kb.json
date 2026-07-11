@@ -345,6 +345,18 @@
         }
       ]
     },
+    "CoreWeave": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "rounds": [
+        {
+          "date": "2026-07-11",
+          "investors": "Nvidia",
+          "round": "financing"
+        }
+      ]
+    },
     "DHL": {
       "count": 1,
       "first_seen": "2026-06-22",
@@ -470,6 +482,18 @@
         }
       ]
     },
+    "GamesOfArcadia": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "rounds": [
+        {
+          "date": "2026-07-11",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "Goodwater Capital": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -483,9 +507,9 @@
       ]
     },
     "Google": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-07-11",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -501,6 +525,11 @@
           "date": "2026-06-28",
           "investors": null,
           "round": null
+        },
+        {
+          "date": "2026-07-11",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -798,6 +827,18 @@
         }
       ]
     },
+    "Nebius": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "rounds": [
+        {
+          "date": "2026-07-11",
+          "investors": "Nvidia",
+          "round": "financing"
+        }
+      ]
+    },
     "Nivalis Energy Europe": {
       "count": 1,
       "first_seen": "2026-07-08",
@@ -819,6 +860,18 @@
           "date": "2026-06-24",
           "investors": null,
           "round": null
+        }
+      ]
+    },
+    "Nvidia": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "rounds": [
+        {
+          "date": "2026-07-11",
+          "investors": "N/A",
+          "round": "investment"
         }
       ]
     },
@@ -912,6 +965,18 @@
       "rounds": [
         {
           "date": "2026-06-19",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
+    "PredictionMarketTrader": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "rounds": [
+        {
+          "date": "2026-07-11",
           "investors": "N/A",
           "round": "N/A"
         }
@@ -1046,6 +1111,18 @@
           "date": "2026-06-19",
           "investors": "not clear",
           "round": "early access"
+        }
+      ]
+    },
+    "Tailscale": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "rounds": [
+        {
+          "date": "2026-07-11",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -1620,15 +1697,15 @@
       "pattern_notes": []
     },
     "/": {
-      "count": 15,
+      "count": 20,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-11",
       "pattern_notes": []
     },
     "A": {
-      "count": 15,
+      "count": 20,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-11",
       "pattern_notes": []
     },
     "AVP": {
@@ -1788,9 +1865,9 @@
       "pattern_notes": []
     },
     "N": {
-      "count": 18,
+      "count": 25,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-11",
       "pattern_notes": []
     },
     "P": {
@@ -1842,9 +1919,9 @@
       "pattern_notes": []
     },
     "a": {
-      "count": 14,
+      "count": 16,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-11",
       "pattern_notes": []
     },
     "b": {
@@ -1860,9 +1937,9 @@
       "pattern_notes": []
     },
     "d": {
-      "count": 10,
+      "count": 12,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-11",
       "pattern_notes": []
     },
     "e": {
@@ -1890,9 +1967,9 @@
       "pattern_notes": []
     },
     "i": {
-      "count": 23,
+      "count": 27,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-11",
       "pattern_notes": []
     },
     "k": {
@@ -1956,9 +2033,9 @@
       "pattern_notes": []
     },
     "v": {
-      "count": 1,
+      "count": 3,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-07-11",
       "pattern_notes": []
     },
     "w": {
@@ -2029,6 +2106,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "AI agents": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "notes": []
+    },
     "AI engineering": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -2045,6 +2128,12 @@
       "count": 1,
       "first_seen": "2026-06-27",
       "last_seen": "2026-06-27",
+      "notes": []
+    },
+    "AI paradox": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "Active Learning": {
@@ -2105,6 +2194,12 @@
       "count": 1,
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "C++ libraries": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "C/CUDA": {
@@ -2207,6 +2302,12 @@
       "count": 1,
       "first_seen": "2026-06-29",
       "last_seen": "2026-06-29",
+      "notes": []
+    },
+    "GPU financing": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "Generative AI": {
@@ -2563,6 +2664,12 @@
       "last_seen": "2026-07-02",
       "notes": []
     },
+    "UPI architecture": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "notes": []
+    },
     "UX Sound Design": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -2587,6 +2694,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "WireGuard VPN": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "notes": []
+    },
     "Wireless Sensing": {
       "count": 1,
       "first_seen": "2026-07-06",
@@ -2597,6 +2710,24 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "prediction markets": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "notes": []
+    },
+    "quantum error correction": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "notes": []
+    },
+    "reverse centaurs": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     }
   },
@@ -2611,6 +2742,12 @@
       "count": 1,
       "first_seen": "2026-07-04",
       "last_seen": "2026-07-04",
+      "notes": []
+    },
+    "AI Agents in Finance": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "AI Application Layer": {
@@ -2641,6 +2778,12 @@
       "count": 1,
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
+      "notes": []
+    },
+    "AI Infrastructure Finance": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "AI Operating Model": {
@@ -2713,6 +2856,12 @@
       "count": 1,
       "first_seen": "2026-06-20",
       "last_seen": "2026-06-20",
+      "notes": []
+    },
+    "Core Software Libraries": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "Decentralized AI Compute": {
@@ -2811,6 +2960,12 @@
       "last_seen": "2026-07-08",
       "notes": []
     },
+    "Fintech & Payment Systems": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "notes": []
+    },
     "Fintech Engineering": {
       "count": 1,
       "first_seen": "2026-06-27",
@@ -2851,6 +3006,12 @@
       "count": 1,
       "first_seen": "2026-06-29",
       "last_seen": "2026-06-29",
+      "notes": []
+    },
+    "Human-AI Interaction": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "LLM": {
@@ -2905,6 +3066,12 @@
       "count": 2,
       "first_seen": "2026-06-30",
       "last_seen": "2026-07-06",
+      "notes": []
+    },
+    "Network Infrastructure": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "Nuclear Energy Revival": {
@@ -2977,6 +3144,12 @@
       "count": 3,
       "first_seen": "2026-06-26",
       "last_seen": "2026-06-30",
+      "notes": []
+    },
+    "Quantum Computing": {
+      "count": 1,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
       "notes": []
     },
     "Quantum-enhanced Distributed Training": {
