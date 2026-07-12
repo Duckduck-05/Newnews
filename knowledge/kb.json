@@ -135,9 +135,9 @@
       ]
     },
     "Anthropic": {
-      "count": 10,
+      "count": 11,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "rounds": [
         {
           "date": "2026-06-22",
@@ -190,6 +190,11 @@
           "date": "2026-07-10",
           "investors": [],
           "round": "N/A"
+        },
+        {
+          "date": "2026-07-12",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -891,9 +896,9 @@
       ]
     },
     "OpenAI": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -931,6 +936,11 @@
           "date": "2026-07-10",
           "investors": [],
           "round": "N/A"
+        },
+        {
+          "date": "2026-07-12",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -1193,6 +1203,18 @@
       "rounds": [
         {
           "date": "2026-06-28",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
+    "Yosemite": {
+      "count": 1,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "rounds": [
+        {
+          "date": "2026-07-12",
           "investors": null,
           "round": null
         }
@@ -2053,15 +2075,15 @@
   },
   "tech": {
     "AI Agent Control": {
-      "count": 12,
+      "count": 13,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "AI Agents": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "AI Education": {
@@ -2089,9 +2111,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 11,
+      "count": 12,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "AI agent internet access": {
@@ -2208,6 +2230,12 @@
       "last_seen": "2026-06-28",
       "notes": []
     },
+    "Causality Theory": {
+      "count": 1,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "notes": []
+    },
     "Chatbots": {
       "count": 1,
       "first_seen": "2026-06-22",
@@ -2317,9 +2345,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "Generative Models": {
@@ -2371,9 +2399,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 18,
+      "count": 19,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "LLM (Codex)": {
@@ -2422,6 +2450,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Mechanistic Interpretability": {
+      "count": 1,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "Memory Encryption": {
@@ -2512,6 +2546,12 @@
       "count": 1,
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-05",
+      "notes": []
+    },
+    "Plugin Ecosystem": {
+      "count": 1,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "Plugins": {
@@ -2658,6 +2698,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Token Optimization": {
+      "count": 1,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "notes": []
+    },
     "Token compression": {
       "count": 2,
       "first_seen": "2026-06-19",
@@ -2751,9 +2797,9 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 27,
+      "count": 28,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "AI Confidence Gap": {
@@ -2769,9 +2815,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 19,
+      "count": 20,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "AI Infrastructure": {
@@ -2805,9 +2851,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 25,
+      "count": 26,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-09",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "Agritech": {
@@ -2828,10 +2874,16 @@
       "last_seen": "2026-06-27",
       "notes": []
     },
+    "Biotech AI": {
+      "count": 1,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "notes": []
+    },
     "Capital Allocation": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-05",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "Capital Allocation in SEA": {
@@ -3050,6 +3102,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Mechanistic Interpretability": {
+      "count": 1,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "notes": []
+    },
     "Medtech/Robotics": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -3261,9 +3319,9 @@
       "notes": []
     },
     "Unit Economics": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-12",
       "notes": []
     },
     "Unit economics": {
