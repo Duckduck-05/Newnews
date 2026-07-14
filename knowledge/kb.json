@@ -562,6 +562,20 @@
         }
       ]
     },
+    "IM8": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "rounds": [
+        {
+          "date": "2026-07-14",
+          "investors": [
+            "General Catalyst"
+          ],
+          "round": "Funding (CVF)"
+        }
+      ]
+    },
     "Infineon": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -868,6 +882,18 @@
         }
       ]
     },
+    "Nutlope": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "rounds": [
+        {
+          "date": "2026-07-14",
+          "investors": [],
+          "round": "N/A"
+        }
+      ]
+    },
     "Nvidia": {
       "count": 1,
       "first_seen": "2026-07-11",
@@ -980,6 +1006,20 @@
         }
       ]
     },
+    "PolicyStreet": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "rounds": [
+        {
+          "date": "2026-07-14",
+          "investors": [
+            "BlueOrchard"
+          ],
+          "round": "Series C"
+        }
+      ]
+    },
     "PredictionMarketTrader": {
       "count": 1,
       "first_seen": "2026-07-11",
@@ -988,6 +1028,18 @@
         {
           "date": "2026-07-11",
           "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
+    "PrismML": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "rounds": [
+        {
+          "date": "2026-07-14",
+          "investors": [],
           "round": "N/A"
         }
       ]
@@ -1109,6 +1161,18 @@
           "date": "2026-06-20",
           "investors": null,
           "round": null
+        }
+      ]
+    },
+    "StubHub": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "rounds": [
+        {
+          "date": "2026-07-14",
+          "investors": [],
+          "round": "N/A"
         }
       ]
     },
@@ -1318,6 +1382,18 @@
         }
       ]
     },
+    "moeru-ai": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "rounds": [
+        {
+          "date": "2026-07-14",
+          "investors": [],
+          "round": "N/A"
+        }
+      ]
+    },
     "opendatalab": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -1345,10 +1421,10 @@
   },
   "deep_tech": {
     "AI Model Optimization": {
-      "count": 2,
-      "domain": "AI",
+      "count": 3,
+      "domain": "AI Engineering",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-07"
+      "last_seen": "2026-07-14"
     },
     "AI tutor": {
       "count": 1,
@@ -1391,6 +1467,12 @@
       "domain": "semiconductor",
       "first_seen": "2026-06-29",
       "last_seen": "2026-06-29"
+    },
+    "Autonomous Agent Training": {
+      "count": 1,
+      "domain": "AI Engineering",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14"
     },
     "Autonomous Vehicle Safety": {
       "count": 1,
@@ -1523,6 +1605,12 @@
       "domain": "Decentralized Computing",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "LLM Safety/Security": {
+      "count": 1,
+      "domain": "AI Engineering",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14"
     },
     "LLM mechanisms": {
       "count": 1,
@@ -1778,6 +1866,12 @@
       "last_seen": "2026-07-05",
       "pattern_notes": []
     },
+    "BlueOrchard": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "pattern_notes": []
+    },
     "C": {
       "count": 5,
       "first_seen": "2026-06-19",
@@ -1836,6 +1930,12 @@
       "count": 1,
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-05",
+      "pattern_notes": []
+    },
+    "General Catalyst": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
       "pattern_notes": []
     },
     "H": {
@@ -2087,9 +2187,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 22,
+      "count": 23,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "AI Education": {
@@ -2114,6 +2214,12 @@
       "count": 1,
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-10",
+      "notes": []
+    },
+    "AI Safety": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "AI Workflow": {
@@ -2302,10 +2408,22 @@
       "last_seen": "2026-07-02",
       "notes": []
     },
+    "Embedded Insurance": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "notes": []
+    },
     "Embedding Models": {
       "count": 1,
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "Fintech": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "Fintech engineering patterns": {
@@ -2351,9 +2469,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 9,
+      "count": 10,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "Generative Models": {
@@ -2405,9 +2523,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "LLM (Codex)": {
@@ -2474,6 +2592,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Model Optimization": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "Multimodal APIs": {
@@ -2597,9 +2721,9 @@
       "notes": []
     },
     "Reinforcement Learning": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "Ring all-reduce": {
@@ -2684,6 +2808,12 @@
       "count": 1,
       "first_seen": "2026-06-27",
       "last_seen": "2026-06-27",
+      "notes": []
+    },
+    "Startup Ranking": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "Steganography": {
@@ -2821,15 +2951,15 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 29,
+      "count": 30,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 24,
+      "count": 25,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "AI Education": {
@@ -2839,9 +2969,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "AI Infrastructure": {
@@ -2875,9 +3005,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 27,
+      "count": 28,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "Agritech": {
@@ -2917,9 +3047,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 21,
+      "count": 22,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "Capital allocation": {
@@ -3150,6 +3280,12 @@
       "last_seen": "2026-06-28",
       "notes": []
     },
+    "Moat & Defensibility": {
+      "count": 1,
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "notes": []
+    },
     "Moats": {
       "count": 2,
       "first_seen": "2026-06-30",
@@ -3271,9 +3407,9 @@
       "notes": []
     },
     "SEA Fintech": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-10",
+      "last_seen": "2026-07-14",
       "notes": []
     },
     "SEA Fintech / Payments / Startup Ecosystem": {
