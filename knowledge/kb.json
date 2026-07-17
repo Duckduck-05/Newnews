@@ -326,6 +326,18 @@
         }
       ]
     },
+    "Capital One": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "rounds": [
+        {
+          "date": "2026-07-17",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "Chatwoot": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -1502,6 +1514,18 @@
         }
       ]
     },
+    "pQCee": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "rounds": [
+        {
+          "date": "2026-07-17",
+          "investors": "SGInnovate, Lotus One Investment, In Group Holdings, Wavemaker Ventures, SUTD Venture Holdings, Apsara",
+          "round": "Seed"
+        }
+      ]
+    },
     "xAI": {
       "count": 2,
       "first_seen": "2026-06-22",
@@ -1803,6 +1827,12 @@
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-10"
     },
+    "Post-Quantum Cybersecurity": {
+      "count": 1,
+      "domain": "Advanced Materials",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
+    },
     "Product Lifecycle Management (PLM)": {
       "count": 1,
       "domain": "Software Engineering",
@@ -1850,6 +1880,12 @@
       "domain": "robotics",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Robotics Assembly Skills": {
+      "count": 1,
+      "domain": "Robotics",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17"
     },
     "Robotics for GPS-denied environments": {
       "count": 1,
@@ -1938,9 +1974,9 @@
   },
   "investors": {
     ",": {
-      "count": 3,
+      "count": 8,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "-": {
@@ -1950,15 +1986,15 @@
       "pattern_notes": []
     },
     "/": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "A": {
-      "count": 20,
+      "count": 22,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "AVP": {
@@ -2033,6 +2069,12 @@
       "last_seen": "2026-06-29",
       "pattern_notes": []
     },
+    "D": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "pattern_notes": []
+    },
     "EDBI": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -2052,9 +2094,9 @@
       "pattern_notes": []
     },
     "G": {
-      "count": 1,
+      "count": 3,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "GFT Ventures": {
@@ -2076,9 +2118,9 @@
       "pattern_notes": []
     },
     "H": {
-      "count": 1,
+      "count": 3,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "Hyundai": {
@@ -2088,15 +2130,21 @@
       "pattern_notes": []
     },
     "I": {
-      "count": 2,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "Khosla": {
       "count": 1,
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-05",
+      "pattern_notes": []
+    },
+    "L": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "Lg Technology Ventures": {
@@ -2136,9 +2184,15 @@
       "pattern_notes": []
     },
     "N": {
-      "count": 25,
+      "count": 26,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-17",
+      "pattern_notes": []
+    },
+    "O": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "P": {
@@ -2154,9 +2208,9 @@
       "pattern_notes": []
     },
     "S": {
-      "count": 4,
+      "count": 6,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "SBI Investment": {
@@ -2171,10 +2225,34 @@
       "last_seen": "2026-06-19",
       "pattern_notes": []
     },
+    "T": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "pattern_notes": []
+    },
+    "U": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "pattern_notes": []
+    },
+    "V": {
+      "count": 2,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "pattern_notes": []
+    },
     "Vynn Capital": {
       "count": 1,
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02",
+      "pattern_notes": []
+    },
+    "W": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "ZIG Ventures": {
@@ -2190,9 +2268,9 @@
       "pattern_notes": []
     },
     "a": {
-      "count": 16,
+      "count": 21,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "b": {
@@ -2208,15 +2286,15 @@
       "pattern_notes": []
     },
     "d": {
-      "count": 12,
+      "count": 14,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "e": {
-      "count": 24,
+      "count": 34,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "f": {
@@ -2226,9 +2304,9 @@
       "pattern_notes": []
     },
     "g": {
-      "count": 2,
+      "count": 4,
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "h": {
@@ -2238,75 +2316,75 @@
       "pattern_notes": []
     },
     "i": {
-      "count": 27,
+      "count": 29,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "k": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "l": {
-      "count": 10,
+      "count": 12,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "m": {
-      "count": 3,
+      "count": 5,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "n": {
-      "count": 21,
+      "count": 31,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "o": {
-      "count": 24,
+      "count": 29,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "p": {
-      "count": 7,
+      "count": 9,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "r": {
-      "count": 9,
+      "count": 14,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "s": {
-      "count": 11,
+      "count": 17,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "t": {
-      "count": 19,
+      "count": 25,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "u": {
-      "count": 8,
+      "count": 12,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "v": {
-      "count": 3,
+      "count": 6,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-17",
       "pattern_notes": []
     },
     "w": {
@@ -2324,15 +2402,15 @@
   },
   "tech": {
     "AI Agent Control": {
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "AI Agents": {
-      "count": 24,
+      "count": 25,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "AI Education": {
@@ -2513,6 +2591,12 @@
       "count": 1,
       "first_seen": "2026-07-04",
       "last_seen": "2026-07-04",
+      "notes": []
+    },
+    "Code Security AI": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "Combinatorial Optimization": {
@@ -2869,6 +2953,12 @@
       "last_seen": "2026-06-22",
       "notes": []
     },
+    "Post-Quantum Cryptography": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "notes": []
+    },
     "Prediction Markets": {
       "count": 1,
       "first_seen": "2026-06-23",
@@ -2921,6 +3011,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Robotics Control": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "Robotics operating system": {
@@ -3148,15 +3244,15 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 32,
+      "count": 33,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 27,
+      "count": 28,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "AI Education": {
@@ -3166,9 +3262,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 23,
+      "count": 24,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "AI Infrastructure": {
@@ -3208,9 +3304,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 30,
+      "count": 31,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "Agritech": {
@@ -3220,9 +3316,9 @@
       "notes": []
     },
     "Autonomy Stack": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-27",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "Biotech": {
@@ -3271,6 +3367,12 @@
       "count": 1,
       "first_seen": "2026-07-11",
       "last_seen": "2026-07-11",
+      "notes": []
+    },
+    "Cybersecurity": {
+      "count": 1,
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "Data Privacy": {
@@ -3604,9 +3706,9 @@
       "notes": []
     },
     "Robotics": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-17",
       "notes": []
     },
     "SEA Fintech": {
