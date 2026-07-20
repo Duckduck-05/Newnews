@@ -641,6 +641,18 @@
         }
       ]
     },
+    "Infinity": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "rounds": [
+        {
+          "date": "2026-07-20",
+          "investors": "Touring Capital, Principal VC, OpenAI and Anthropic researchers",
+          "round": "$15M"
+        }
+      ]
+    },
     "Instagram": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -934,6 +946,18 @@
           "date": "2026-06-22",
           "investors": null,
           "round": null
+        }
+      ]
+    },
+    "Natural": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "rounds": [
+        {
+          "date": "2026-07-20",
+          "investors": "không rõ",
+          "round": "$30M"
         }
       ]
     },
@@ -1741,6 +1765,12 @@
       "first_seen": "2026-06-26",
       "last_seen": "2026-07-08"
     },
+    "FIBSEM": {
+      "count": 1,
+      "domain": "Semiconductor Failure Analysis",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20"
+    },
     "Fab2": {
       "count": 1,
       "domain": "semiconductor manufacturing",
@@ -1806,6 +1836,12 @@
       "domain": "Decentralized Computing",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "LED": {
+      "count": 1,
+      "domain": "Lighting Technology / Environmental Impact",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20"
     },
     "LLM Safety/Security": {
       "count": 1,
@@ -2020,9 +2056,9 @@
   },
   "investors": {
     ",": {
-      "count": 8,
+      "count": 10,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "-": {
@@ -2038,9 +2074,9 @@
       "pattern_notes": []
     },
     "A": {
-      "count": 27,
+      "count": 29,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "AVP": {
@@ -2092,9 +2128,9 @@
       "pattern_notes": []
     },
     "C": {
-      "count": 5,
+      "count": 7,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "CATL": {
@@ -2176,9 +2212,9 @@
       "pattern_notes": []
     },
     "I": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "Khosla": {
@@ -2236,15 +2272,15 @@
       "pattern_notes": []
     },
     "O": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "P": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "R": {
@@ -2272,9 +2308,9 @@
       "pattern_notes": []
     },
     "T": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "U": {
@@ -2284,9 +2320,9 @@
       "pattern_notes": []
     },
     "V": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-07-17",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "Vynn Capital": {
@@ -2314,9 +2350,9 @@
       "pattern_notes": []
     },
     "a": {
-      "count": 21,
+      "count": 26,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "b": {
@@ -2326,21 +2362,21 @@
       "pattern_notes": []
     },
     "c": {
-      "count": 12,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "d": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "e": {
-      "count": 34,
+      "count": 38,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "f": {
@@ -2350,33 +2386,33 @@
       "pattern_notes": []
     },
     "g": {
-      "count": 4,
+      "count": 6,
       "first_seen": "2026-07-03",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "h": {
-      "count": 4,
+      "count": 7,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "i": {
-      "count": 29,
+      "count": 34,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "k": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "l": {
-      "count": 12,
+      "count": 14,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "m": {
@@ -2386,45 +2422,45 @@
       "pattern_notes": []
     },
     "n": {
-      "count": 31,
+      "count": 37,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "o": {
-      "count": 29,
+      "count": 31,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "p": {
-      "count": 9,
+      "count": 13,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "r": {
-      "count": 14,
+      "count": 21,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "s": {
-      "count": 17,
+      "count": 19,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "t": {
-      "count": 25,
+      "count": 27,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "u": {
-      "count": 12,
+      "count": 13,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     },
     "v": {
@@ -2443,6 +2479,18 @@
       "count": 1,
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
+      "pattern_notes": []
+    },
+    "ô": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "pattern_notes": []
+    },
+    "õ": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "pattern_notes": []
     }
   },
@@ -2477,10 +2525,22 @@
       "last_seen": "2026-07-08",
       "notes": []
     },
+    "AI Infrastructure": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "notes": []
+    },
     "AI Model Optimization": {
       "count": 1,
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-10",
+      "notes": []
+    },
+    "AI Payments": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "AI Safety": {
@@ -2565,6 +2625,12 @@
       "count": 1,
       "first_seen": "2026-06-29",
       "last_seen": "2026-06-29",
+      "notes": []
+    },
+    "Agent swarms": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "Agentic Workflow": {
@@ -2753,6 +2819,12 @@
       "last_seen": "2026-06-28",
       "notes": []
     },
+    "Generative BI": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "notes": []
+    },
     "Generative Modeling": {
       "count": 12,
       "first_seen": "2026-06-23",
@@ -2817,6 +2889,18 @@
       "count": 1,
       "first_seen": "2026-07-04",
       "last_seen": "2026-07-04",
+      "notes": []
+    },
+    "LLM Fine-tuning": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "notes": []
+    },
+    "LLM Inference Optimization": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "LLM KV cache trimming": {
@@ -2975,6 +3059,12 @@
       "last_seen": "2026-06-29",
       "notes": []
     },
+    "Open-weights AI": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "notes": []
+    },
     "Optimal Transport": {
       "count": 1,
       "first_seen": "2026-07-05",
@@ -3015,6 +3105,12 @@
       "count": 1,
       "first_seen": "2026-07-16",
       "last_seen": "2026-07-16",
+      "notes": []
+    },
+    "Proprietary AI": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "Quantum Kernel Vision Models": {
@@ -3159,6 +3255,12 @@
       "count": 1,
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
+      "notes": []
+    },
+    "Text-to-SQL": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "Text-to-Speech (TTS)": {
@@ -3313,6 +3415,12 @@
       "last_seen": "2026-07-18",
       "notes": []
     },
+    "AI Inference Optimization": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "notes": []
+    },
     "AI Infrastructure": {
       "count": 1,
       "first_seen": "2026-07-08",
@@ -3325,10 +3433,22 @@
       "last_seen": "2026-07-11",
       "notes": []
     },
+    "AI Moats": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "notes": []
+    },
     "AI Operating Model": {
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "AI Payments": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "AI Security": {
@@ -3347,6 +3467,12 @@
       "count": 1,
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-05",
+      "notes": []
+    },
+    "Agent economics": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "Agentic Infrastructure": {
@@ -3541,6 +3667,12 @@
       "last_seen": "2026-06-20",
       "notes": []
     },
+    "Generative BI": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "notes": []
+    },
     "Generative Modeling": {
       "count": 6,
       "first_seen": "2026-06-26",
@@ -3593,6 +3725,12 @@
       "count": 1,
       "first_seen": "2026-07-04",
       "last_seen": "2026-07-04",
+      "notes": []
+    },
+    "Light Pollution": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "Local AI/Edge AI": {
@@ -3785,6 +3923,12 @@
       "count": 2,
       "first_seen": "2026-06-22",
       "last_seen": "2026-07-06",
+      "notes": []
+    },
+    "Semiconductor Failure Analysis": {
+      "count": 1,
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
       "notes": []
     },
     "Sensor stack": {
