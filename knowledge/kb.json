@@ -241,6 +241,23 @@
         }
       ]
     },
+    "Atoms": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "rounds": [
+        {
+          "date": "2026-07-22",
+          "investors": [
+            "a16z",
+            "Uber",
+            "Bain Capital",
+            "Fifth Wall"
+          ],
+          "round": "$1.7B"
+        }
+      ]
+    },
     "Basis Set Ventures": {
       "count": 1,
       "first_seen": "2026-06-23",
@@ -364,6 +381,18 @@
           "date": "2026-07-08",
           "investors": [],
           "round": null
+        }
+      ]
+    },
+    "ComposioHQ": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "rounds": [
+        {
+          "date": "2026-07-22",
+          "investors": [],
+          "round": "not specified"
         }
       ]
     },
@@ -1556,6 +1585,18 @@
         }
       ]
     },
+    "dottxt-ai": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "rounds": [
+        {
+          "date": "2026-07-22",
+          "investors": [],
+          "round": "not specified"
+        }
+      ]
+    },
     "etaily": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -1762,6 +1803,12 @@
       "domain": "energy & pin",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08"
+    },
+    "Colossus": {
+      "count": 1,
+      "domain": "early computing/cryptography",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22"
     },
     "Contextual Emotion AI": {
       "count": 1,
@@ -2185,6 +2232,12 @@
       "last_seen": "2026-06-30",
       "pattern_notes": []
     },
+    "Bain Capital": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "pattern_notes": []
+    },
     "Bessemer Venture Partners": {
       "count": 1,
       "first_seen": "2026-07-05",
@@ -2243,6 +2296,12 @@
       "count": 1,
       "first_seen": "2026-06-30",
       "last_seen": "2026-06-30",
+      "pattern_notes": []
+    },
+    "Fifth Wall": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
       "pattern_notes": []
     },
     "G": {
@@ -2389,6 +2448,12 @@
       "last_seen": "2026-07-17",
       "pattern_notes": []
     },
+    "Uber": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "pattern_notes": []
+    },
     "V": {
       "count": 3,
       "first_seen": "2026-07-17",
@@ -2423,6 +2488,12 @@
       "count": 26,
       "first_seen": "2026-06-19",
       "last_seen": "2026-07-20",
+      "pattern_notes": []
+    },
+    "a16z": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
       "pattern_notes": []
     },
     "b": {
@@ -2572,9 +2643,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 27,
+      "count": 28,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "AI Education": {
@@ -2626,9 +2697,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "AI agent internet access": {
@@ -2943,6 +3014,12 @@
       "last_seen": "2026-06-22",
       "notes": []
     },
+    "Industrial AI": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "notes": []
+    },
     "Intelligent Power Management Chips": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -2962,9 +3039,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 24,
+      "count": 25,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "LLM (Codex)": {
@@ -3327,6 +3404,12 @@
       "last_seen": "2026-06-30",
       "notes": []
     },
+    "Structured Outputs": {
+      "count": 1,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "notes": []
+    },
     "System Prompts": {
       "count": 1,
       "first_seen": "2026-06-22",
@@ -3486,15 +3569,15 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 34,
+      "count": 35,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 29,
+      "count": 30,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "AI Education": {
@@ -3504,9 +3587,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 25,
+      "count": 26,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "AI Inference Optimization": {
@@ -3582,9 +3665,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 32,
+      "count": 33,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "Agritech": {
@@ -3612,9 +3695,9 @@
       "notes": []
     },
     "Capital Allocation": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "Capital Allocation in SEA": {
@@ -3624,9 +3707,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 25,
+      "count": 26,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "Capital allocation": {
@@ -3786,9 +3869,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "Geopolitical/Sovereignty": {
@@ -3894,9 +3977,9 @@
       "notes": []
     },
     "Moats": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "Network Infrastructure": {
@@ -3978,9 +4061,9 @@
       "notes": []
     },
     "Quant Trading": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "Quantum Computing": {
@@ -4008,9 +4091,9 @@
       "notes": []
     },
     "Robotics": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-17",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "SEA Fintech": {
@@ -4026,9 +4109,9 @@
       "notes": []
     },
     "SEA Startup Ecosystem": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-22",
       "notes": []
     },
     "SEA fintech / payments / startup ecosystem": {
