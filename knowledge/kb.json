@@ -135,9 +135,9 @@
       ]
     },
     "Anthropic": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "rounds": [
         {
           "date": "2026-06-22",
@@ -210,6 +210,11 @@
           "date": "2026-07-26",
           "investors": [],
           "round": "N/A"
+        },
+        {
+          "date": "2026-07-27",
+          "investors": [],
+          "round": null
         }
       ]
     },
@@ -316,6 +321,18 @@
             "ZIG Ventures"
           ],
           "round": "Series Unknown"
+        }
+      ]
+    },
+    "Block": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "rounds": [
+        {
+          "date": "2026-07-27",
+          "investors": [],
+          "round": null
         }
       ]
     },
@@ -654,9 +671,9 @@
       ]
     },
     "Google": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -682,16 +699,26 @@
           "date": "2026-07-26",
           "investors": [],
           "round": "N/A"
+        },
+        {
+          "date": "2026-07-27",
+          "investors": [],
+          "round": null
         }
       ]
     },
     "Google DeepMind": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-07-27",
       "rounds": [
         {
           "date": "2026-07-15",
+          "investors": [],
+          "round": null
+        },
+        {
+          "date": "2026-07-27",
           "investors": [],
           "round": null
         }
@@ -1329,6 +1356,18 @@
         }
       ]
     },
+    "Permissionless Tech": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "rounds": [
+        {
+          "date": "2026-07-27",
+          "investors": [],
+          "round": null
+        }
+      ]
+    },
     "PinLeads": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -1886,6 +1925,12 @@
       "first_seen": "2026-07-05",
       "last_seen": "2026-07-05"
     },
+    "AI-Driven Cognitive Systems": {
+      "count": 1,
+      "domain": "Defense/Electronic Warfare",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27"
+    },
     "Acrab Compute": {
       "count": 1,
       "domain": "AI Infrastructure",
@@ -2221,6 +2266,12 @@
       "domain": "Inference Paradigms",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Radar and Electronic Warfare": {
+      "count": 1,
+      "domain": "Defense/Electronic Warfare",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27"
     },
     "Real-Time Robust Optimal Control": {
       "count": 1,
@@ -2821,9 +2872,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 31,
+      "count": 32,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "AI Education": {
@@ -3006,6 +3057,12 @@
       "last_seen": "2026-07-02",
       "notes": []
     },
+    "Bluetooth mesh": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "notes": []
+    },
     "Bot Blocking": {
       "count": 1,
       "first_seen": "2026-07-26",
@@ -3078,6 +3135,18 @@
       "last_seen": "2026-07-02",
       "notes": []
     },
+    "DMCA law": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "notes": []
+    },
+    "Data scraping": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "notes": []
+    },
     "Data-Oriented Design": {
       "count": 1,
       "first_seen": "2026-07-26",
@@ -3094,6 +3163,12 @@
       "count": 1,
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
+      "notes": []
+    },
+    "Decentralized messaging": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Diffusion Models": {
@@ -3136,6 +3211,12 @@
       "count": 1,
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
+      "notes": []
+    },
+    "Fintech applications": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Fintech engineering patterns": {
@@ -3390,6 +3471,12 @@
       "last_seen": "2026-07-02",
       "notes": []
     },
+    "Nostr protocol": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "notes": []
+    },
     "OCR": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -3448,6 +3535,12 @@
       "count": 1,
       "first_seen": "2026-07-20",
       "last_seen": "2026-07-20",
+      "notes": []
+    },
+    "Open-weights models": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Optimal Transport": {
@@ -3522,6 +3615,12 @@
       "last_seen": "2026-06-19",
       "notes": []
     },
+    "Regulatory compliance solutions": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "notes": []
+    },
     "Reinforcement Learning": {
       "count": 3,
       "first_seen": "2026-06-26",
@@ -3592,6 +3691,12 @@
       "count": 1,
       "first_seen": "2026-07-04",
       "last_seen": "2026-07-04",
+      "notes": []
+    },
+    "Self-hostable platforms": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Self-improving models": {
@@ -3825,15 +3930,15 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 38,
+      "count": 39,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 31,
+      "count": 32,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "AI Cost Optimization": {
@@ -3849,9 +3954,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 28,
+      "count": 29,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "AI Inference Optimization": {
@@ -3927,9 +4032,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 36,
+      "count": 37,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Agritech": {
@@ -3969,9 +4074,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 28,
+      "count": 29,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-26",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Capital allocation": {
@@ -4002,6 +4107,12 @@
       "count": 1,
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17",
+      "notes": []
+    },
+    "Data Access / Scraping": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Data Privacy": {
@@ -4035,9 +4146,9 @@
       "notes": []
     },
     "Defensibility": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-06",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Digital Sovereignty": {
@@ -4122,6 +4233,12 @@
       "count": 1,
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
+      "notes": []
+    },
+    "Ethics in AI": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "Fintech & Payment Systems": {
@@ -4413,9 +4530,9 @@
       "notes": []
     },
     "SEA fintech / payments / startup ecosystem": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-06-26",
+      "last_seen": "2026-07-27",
       "notes": []
     },
     "SEA startup ecosystem": {
@@ -4512,6 +4629,24 @@
       "count": 1,
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-13",
+      "notes": []
+    },
+    "capital allocation / VC thesis / moats": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "notes": []
+    },
+    "diffusion models / generative modeling": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
+      "notes": []
+    },
+    "uncertainty / OOD / long-tailed learning": {
+      "count": 1,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-27",
       "notes": []
     }
   }
