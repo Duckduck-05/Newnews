@@ -2478,6 +2478,12 @@
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08"
     },
+    "Risk Management": {
+      "count": 1,
+      "domain": "Software Engineering",
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01"
+    },
     "Robotic-assisted prostate cancer care platform": {
       "count": 1,
       "domain": "robotics",
@@ -3071,9 +3077,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 34,
+      "count": 35,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "AI Education": {
@@ -3131,9 +3137,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 18,
+      "count": 19,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "AI agent internet access": {
@@ -3479,9 +3485,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 16,
+      "count": 17,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "Generative Models": {
@@ -3551,9 +3557,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 30,
+      "count": 31,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "LLM (Codex)": {
@@ -4183,9 +4189,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "AI Agents in Finance": {
@@ -4195,9 +4201,9 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 42,
+      "count": 43,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "AI Confidence Gap": {
@@ -4219,9 +4225,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 32,
+      "count": 33,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "AI Inference Optimization": {
@@ -4273,9 +4279,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-15",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "AI for Scientific Discovery": {
@@ -4518,6 +4524,12 @@
       "last_seen": "2026-07-27",
       "notes": []
     },
+    "Fintech": {
+      "count": 1,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "notes": []
+    },
     "Fintech & Payment Systems": {
       "count": 1,
       "first_seen": "2026-07-11",
@@ -4542,6 +4554,12 @@
       "last_seen": "2026-06-20",
       "notes": []
     },
+    "Founder ecosystem": {
+      "count": 1,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
+      "notes": []
+    },
     "Fraud Detection & Prevention": {
       "count": 1,
       "first_seen": "2026-07-26",
@@ -4555,9 +4573,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 10,
+      "count": 11,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-07-28",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "Geopolitical/Sovereignty": {
@@ -4780,6 +4798,12 @@
       "count": 1,
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19",
+      "notes": []
+    },
+    "Risk Management": {
+      "count": 1,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-08-01",
       "notes": []
     },
     "Robotics": {
