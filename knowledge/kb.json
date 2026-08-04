@@ -1508,6 +1508,18 @@
         }
       ]
     },
+    "Oxide Computer": {
+      "count": 1,
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "rounds": [
+        {
+          "date": "2026-08-04",
+          "investors": "not clear",
+          "round": "not clear"
+        }
+      ]
+    },
     "Palantir": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -2616,6 +2628,12 @@
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06"
     },
+    "Why R&D Waste Persists Despite Widespread AI Adoption": {
+      "count": 1,
+      "domain": "AI Engineering / R&D Optimization",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04"
+    },
     "Wind-Powered Cargo Ships": {
       "count": 1,
       "domain": "Logistics/Clean Energy",
@@ -2961,9 +2979,9 @@
       "pattern_notes": []
     },
     "a": {
-      "count": 36,
+      "count": 37,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "a16z": {
@@ -2979,9 +2997,9 @@
       "pattern_notes": []
     },
     "c": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "d": {
@@ -2991,9 +3009,9 @@
       "pattern_notes": []
     },
     "e": {
-      "count": 43,
+      "count": 44,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "f": {
@@ -3027,9 +3045,9 @@
       "pattern_notes": []
     },
     "l": {
-      "count": 24,
+      "count": 25,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "m": {
@@ -3039,15 +3057,15 @@
       "pattern_notes": []
     },
     "n": {
-      "count": 43,
+      "count": 44,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "o": {
-      "count": 36,
+      "count": 37,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "p": {
@@ -3057,9 +3075,9 @@
       "pattern_notes": []
     },
     "r": {
-      "count": 22,
+      "count": 23,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "s": {
@@ -3069,9 +3087,9 @@
       "pattern_notes": []
     },
     "t": {
-      "count": 32,
+      "count": 33,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-04",
       "pattern_notes": []
     },
     "u": {
@@ -3119,9 +3137,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 37,
+      "count": 38,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "AI Education": {
@@ -3179,9 +3197,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 21,
+      "count": 22,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "AI agent internet access": {
@@ -3527,9 +3545,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 19,
+      "count": 20,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "Generative Models": {
@@ -3599,9 +3617,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 32,
+      "count": 33,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "LLM (Codex)": {
@@ -4243,15 +4261,15 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 45,
+      "count": 46,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 37,
+      "count": 38,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "AI Cost Optimization": {
@@ -4267,9 +4285,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 35,
+      "count": 36,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "AI Inference Optimization": {
@@ -4321,9 +4339,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-07-15",
-      "last_seen": "2026-08-01",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "AI for Scientific Discovery": {
@@ -4351,9 +4369,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 41,
+      "count": 42,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "Agritech": {
@@ -4393,9 +4411,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 34,
+      "count": 35,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "Capital allocation": {
@@ -4729,9 +4747,9 @@
       "notes": []
     },
     "Moats": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-22",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "Network Infrastructure": {
@@ -4885,9 +4903,9 @@
       "notes": []
     },
     "SEA startup ecosystem": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-04",
       "notes": []
     },
     "Semiconductor Failure Analysis": {
