@@ -428,6 +428,18 @@
         }
       ]
     },
+    "Castform": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "rounds": [
+        {
+          "date": "2026-08-05",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Chatwoot": {
       "count": 1,
       "first_seen": "2026-06-19",
@@ -460,6 +472,18 @@
         {
           "date": "2026-07-08",
           "investors": [],
+          "round": null
+        }
+      ]
+    },
+    "Command Code GOAT": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "rounds": [
+        {
+          "date": "2026-08-05",
+          "investors": null,
           "round": null
         }
       ]
@@ -1024,6 +1048,18 @@
         }
       ]
     },
+    "Lightspeed Venture Partners": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "rounds": [
+        {
+          "date": "2026-08-05",
+          "investors": null,
+          "round": "VC Strategy"
+        }
+      ]
+    },
     "LinqAlpha": {
       "count": 1,
       "first_seen": "2026-07-02",
@@ -1325,6 +1361,18 @@
         }
       ]
     },
+    "Neon": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "rounds": [
+        {
+          "date": "2026-08-05",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Nivalis Energy Europe": {
       "count": 1,
       "first_seen": "2026-07-08",
@@ -1418,9 +1466,9 @@
       ]
     },
     "OpenAI": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-05",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -1493,6 +1541,11 @@
           "date": "2026-07-31",
           "investors": null,
           "round": null
+        },
+        {
+          "date": "2026-08-05",
+          "investors": null,
+          "round": "Acquisition"
         }
       ]
     },
@@ -1651,6 +1704,18 @@
           "date": "2026-07-16",
           "investors": [],
           "round": ""
+        }
+      ]
+    },
+    "Roboflow": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "rounds": [
+        {
+          "date": "2026-08-05",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -1935,6 +2000,18 @@
         }
       ]
     },
+    "a16z": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "rounds": [
+        {
+          "date": "2026-08-05",
+          "investors": null,
+          "round": "Acquisition"
+        }
+      ]
+    },
     "addyosmani": {
       "count": 1,
       "first_seen": "2026-07-09",
@@ -2135,6 +2212,12 @@
       "domain": "Societal Impact of AI",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29"
+    },
+    "AI for Power Grids": {
+      "count": 1,
+      "domain": "Energy & Grid",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05"
     },
     "AI literacy": {
       "count": 1,
@@ -3131,15 +3214,15 @@
   },
   "tech": {
     "AI Agent Control": {
-      "count": 18,
+      "count": 19,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI Agents": {
-      "count": 38,
+      "count": 39,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI Education": {
@@ -3197,9 +3280,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 22,
+      "count": 23,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI agent internet access": {
@@ -3389,9 +3472,9 @@
       "notes": []
     },
     "Computer Vision": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "Conformal Prediction": {
@@ -3617,9 +3700,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 33,
+      "count": 34,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "LLM (Codex)": {
@@ -3920,6 +4003,12 @@
       "count": 3,
       "first_seen": "2026-06-26",
       "last_seen": "2026-07-14",
+      "notes": []
+    },
+    "Retrieval Augmented Generation (RAG)": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "Ring all-reduce": {
@@ -4249,9 +4338,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-08-01",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI Agents in Finance": {
@@ -4261,15 +4350,15 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 46,
+      "count": 47,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 38,
+      "count": 39,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI Cost Optimization": {
@@ -4285,9 +4374,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 36,
+      "count": 37,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI Inference Optimization": {
@@ -4339,9 +4428,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-07-15",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "AI for Scientific Discovery": {
@@ -4369,9 +4458,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 42,
+      "count": 43,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "Agritech": {
@@ -4501,9 +4590,9 @@
       "notes": []
     },
     "Distribution": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-28",
-      "last_seen": "2026-06-28",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "ESG/Sustainability in Logistics": {
@@ -4633,9 +4722,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 12,
+      "count": 13,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-08-02",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "Geopolitical/Sovereignty": {
@@ -4747,9 +4836,9 @@
       "notes": []
     },
     "Moats": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "Network Infrastructure": {
@@ -4975,15 +5064,21 @@
       "notes": []
     },
     "Unit Economics": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-07-12",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "Unit economics": {
       "count": 1,
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
+      "notes": []
+    },
+    "VC Thesis": {
+      "count": 1,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
       "notes": []
     },
     "VC thesis": {
