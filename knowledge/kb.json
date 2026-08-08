@@ -142,6 +142,18 @@
         }
       ]
     },
+    "Amazon": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "rounds": [
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Amity": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -165,6 +177,18 @@
           "date": "2026-07-28",
           "investors": "",
           "round": ""
+        }
+      ]
+    },
+    "Amos Labs": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "rounds": [
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -481,6 +505,18 @@
         }
       ]
     },
+    "Cloudflare": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "rounds": [
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Coasty": {
       "count": 1,
       "first_seen": "2026-08-07",
@@ -577,6 +613,18 @@
         }
       ]
     },
+    "DeepMind": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "rounds": [
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "DeepSeek": {
       "count": 1,
       "first_seen": "2026-08-07",
@@ -610,6 +658,18 @@
           "date": "2026-08-03",
           "investors": "N/A",
           "round": "N/A"
+        }
+      ]
+    },
+    "Deno Land": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "rounds": [
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -818,9 +878,9 @@
       ]
     },
     "Google": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-08",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -856,6 +916,11 @@
           "date": "2026-08-07",
           "investors": [],
           "round": "N/A"
+        },
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -901,9 +966,9 @@
       ]
     },
     "Hugging Face": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-31",
+      "last_seen": "2026-08-08",
       "rounds": [
         {
           "date": "2026-07-21",
@@ -912,6 +977,11 @@
         },
         {
           "date": "2026-07-31",
+          "investors": null,
+          "round": null
+        },
+        {
+          "date": "2026-08-08",
           "investors": null,
           "round": null
         }
@@ -1517,9 +1587,9 @@
       ]
     },
     "OpenAI": {
-      "count": 15,
+      "count": 16,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-08",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -1597,6 +1667,11 @@
           "date": "2026-08-05",
           "investors": null,
           "round": "Acquisition"
+        },
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -1829,6 +1904,18 @@
           "date": "2026-06-22",
           "investors": "Not specified, but they are the investor",
           "round": "Fund VII"
+        }
+      ]
+    },
+    "Semantica AGI": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "rounds": [
+        {
+          "date": "2026-08-08",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -3357,9 +3444,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 40,
+      "count": 41,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "AI Cost Management": {
@@ -3405,9 +3492,9 @@
       "notes": []
     },
     "AI Model Optimization": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-07-10",
-      "last_seen": "2026-07-29",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "AI Payments": {
@@ -3692,6 +3779,12 @@
       "last_seen": "2026-06-22",
       "notes": []
     },
+    "Distributed Systems": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "notes": []
+    },
     "Document processing for LLM": {
       "count": 1,
       "first_seen": "2026-06-29",
@@ -3783,9 +3876,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 20,
+      "count": 21,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "Generative Models": {
@@ -3854,10 +3947,16 @@
       "last_seen": "2026-06-29",
       "notes": []
     },
+    "Knowledge Graphs": {
+      "count": 1,
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-08-08",
+      "notes": []
+    },
     "LLM": {
-      "count": 34,
+      "count": 35,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "LLM (Codex)": {
@@ -4517,9 +4616,9 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 48,
+      "count": 49,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "AI Benchmarking": {
@@ -4529,9 +4628,9 @@
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 39,
+      "count": 40,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "AI Cost Optimization": {
@@ -4547,9 +4646,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 38,
+      "count": 39,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "AI Governance": {
@@ -4649,9 +4748,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 44,
+      "count": 45,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "Agritech": {
@@ -4691,9 +4790,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 36,
+      "count": 37,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-08",
       "notes": []
     },
     "Capital allocation": {
