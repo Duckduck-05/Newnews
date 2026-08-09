@@ -143,13 +143,18 @@
       ]
     },
     "Amazon": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-08",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "rounds": [
         {
           "date": "2026-08-08",
           "investors": null,
+          "round": null
+        },
+        {
+          "date": "2026-08-09",
+          "investors": [],
           "round": null
         }
       ]
@@ -193,9 +198,9 @@
       ]
     },
     "Anthropic": {
-      "count": 15,
+      "count": 16,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-27",
+      "last_seen": "2026-08-09",
       "rounds": [
         {
           "date": "2026-06-22",
@@ -271,6 +276,11 @@
         },
         {
           "date": "2026-07-27",
+          "investors": [],
+          "round": null
+        },
+        {
+          "date": "2026-08-09",
           "investors": [],
           "round": null
         }
@@ -614,13 +624,18 @@
       ]
     },
     "DeepMind": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-08",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "rounds": [
         {
           "date": "2026-08-08",
           "investors": null,
+          "round": null
+        },
+        {
+          "date": "2026-08-09",
+          "investors": [],
           "round": null
         }
       ]
@@ -1314,9 +1329,9 @@
       ]
     },
     "Meta": {
-      "count": 6,
+      "count": 7,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-08-09",
       "rounds": [
         {
           "date": "2026-06-23",
@@ -1346,6 +1361,11 @@
         {
           "date": "2026-07-21",
           "investors": null,
+          "round": null
+        },
+        {
+          "date": "2026-08-09",
+          "investors": [],
           "round": null
         }
       ]
@@ -1587,9 +1607,9 @@
       ]
     },
     "OpenAI": {
-      "count": 16,
+      "count": 17,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "rounds": [
         {
           "date": "2026-06-19",
@@ -1671,6 +1691,11 @@
         {
           "date": "2026-08-08",
           "investors": null,
+          "round": null
+        },
+        {
+          "date": "2026-08-09",
+          "investors": [],
           "round": null
         }
       ]
@@ -2508,6 +2533,12 @@
       "domain": "energy & pin",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08"
+    },
+    "Chip Production": {
+      "count": 1,
+      "domain": "semiconductor",
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09"
     },
     "Colossus": {
       "count": 1,
@@ -3774,9 +3805,9 @@
       "notes": []
     },
     "Diffusion Models": {
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "Distributed Systems": {
@@ -3876,9 +3907,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 21,
+      "count": 22,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "Generative Models": {
@@ -3954,9 +3985,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 35,
+      "count": 36,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "LLM (Codex)": {
@@ -4053,6 +4084,12 @@
       "count": 1,
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
+      "notes": []
+    },
+    "MoE": {
+      "count": 1,
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "Model Distillation": {
@@ -4185,6 +4222,12 @@
       "count": 1,
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
+      "notes": []
+    },
+    "Peer-to-peer": {
+      "count": 1,
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "Plugin Ecosystem": {
@@ -4616,9 +4659,9 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 49,
+      "count": 50,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "AI Benchmarking": {
@@ -4646,9 +4689,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 39,
+      "count": 40,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "AI Governance": {
@@ -4748,9 +4791,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 45,
+      "count": 46,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "Agritech": {
@@ -4790,9 +4833,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 37,
+      "count": 38,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-08",
+      "last_seen": "2026-08-09",
       "notes": []
     },
     "Capital allocation": {
