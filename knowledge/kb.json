@@ -2007,6 +2007,18 @@
         }
       ]
     },
+    "Premiss": {
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "rounds": [
+        {
+          "date": "2026-08-15",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
     "Prime Intellect": {
       "count": 1,
       "first_seen": "2026-08-10",
@@ -2414,6 +2426,30 @@
             "OpenAI"
           ],
           "round": "$2B"
+        }
+      ]
+    },
+    "Thunderbird": {
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "rounds": [
+        {
+          "date": "2026-08-15",
+          "investors": null,
+          "round": null
+        }
+      ]
+    },
+    "TokenLab": {
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
+      "rounds": [
+        {
+          "date": "2026-08-15",
+          "investors": null,
+          "round": null
         }
       ]
     },
@@ -3858,9 +3894,9 @@
   },
   "tech": {
     "AI Agent Control": {
-      "count": 21,
+      "count": 22,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-12",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "AI Agentic Coding": {
@@ -3870,9 +3906,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 46,
+      "count": 47,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "AI Cost Management": {
@@ -3918,9 +3954,9 @@
       "notes": []
     },
     "AI Model Optimization": {
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-07-10",
-      "last_seen": "2026-08-10",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "AI Payments": {
@@ -3948,9 +3984,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 28,
+      "count": 29,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "AI agent internet access": {
@@ -4302,9 +4338,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 27,
+      "count": 28,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "Generative Models": {
@@ -4380,9 +4416,9 @@
       "notes": []
     },
     "LLM": {
-      "count": 41,
+      "count": 42,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "LLM (Codex)": {
@@ -5072,9 +5108,9 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 55,
+      "count": 56,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "AI Benchmarking": {
@@ -5084,9 +5120,9 @@
       "notes": []
     },
     "AI Confidence Gap": {
-      "count": 42,
+      "count": 43,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "AI Cost Optimization": {
@@ -5102,9 +5138,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 45,
+      "count": 46,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "AI Governance": {
@@ -5204,9 +5240,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 51,
+      "count": 52,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "Agritech": {
@@ -5474,9 +5510,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 14,
+      "count": 15,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "Geopolitical/Sovereignty": {
@@ -5873,6 +5909,12 @@
       "count": 1,
       "first_seen": "2026-07-27",
       "last_seen": "2026-07-27",
+      "notes": []
+    },
+    "quant trading & market microstructure": {
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-15",
       "notes": []
     },
     "uncertainty / OOD / long-tailed learning": {
