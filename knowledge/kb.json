@@ -802,6 +802,18 @@
         }
       ]
     },
+    "DiffusionGemma": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "rounds": [
+        {
+          "date": "2026-08-20",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "EBOOST": {
       "count": 1,
       "first_seen": "2026-07-23",
@@ -1169,6 +1181,18 @@
         }
       ]
     },
+    "Huzzah": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "rounds": [
+        {
+          "date": "2026-08-20",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "IM8": {
       "count": 1,
       "first_seen": "2026-07-14",
@@ -1532,9 +1556,9 @@
       ]
     },
     "Meta": {
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-06-23",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-08-20",
       "rounds": [
         {
           "date": "2026-06-23",
@@ -1570,6 +1594,11 @@
           "date": "2026-08-09",
           "investors": [],
           "round": null
+        },
+        {
+          "date": "2026-08-20",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -1625,6 +1654,18 @@
             "Qualcomm"
           ],
           "round": "acquisition"
+        }
+      ]
+    },
+    "Molecule.dev": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "rounds": [
+        {
+          "date": "2026-08-20",
+          "investors": "N/A",
+          "round": "N/A"
         }
       ]
     },
@@ -2730,6 +2771,18 @@
         }
       ]
     },
+    "Youtilitics": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "rounds": [
+        {
+          "date": "2026-08-20",
+          "investors": "N/A",
+          "round": "N/A"
+        }
+      ]
+    },
     "a16z": {
       "count": 1,
       "first_seen": "2026-08-05",
@@ -2944,10 +2997,10 @@
       "last_seen": "2026-07-31"
     },
     "AI Model Optimization": {
-      "count": 9,
+      "count": 10,
       "domain": "AI",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-08-17"
+      "last_seen": "2026-08-20"
     },
     "AI digital inequality": {
       "count": 1,
@@ -3104,6 +3157,12 @@
       "domain": "Autonomous Underwater Vehicle (AUV) maneuvering modeling",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-19"
+    },
+    "Diffusion Models": {
+      "count": 1,
+      "domain": "Generative AI",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20"
     },
     "Digital Signal Processing": {
       "count": 1,
@@ -3582,15 +3641,15 @@
       "pattern_notes": []
     },
     "/": {
-      "count": 33,
+      "count": 38,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-20",
       "pattern_notes": []
     },
     "A": {
-      "count": 36,
+      "count": 41,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-20",
       "pattern_notes": []
     },
     "AVP": {
@@ -3822,9 +3881,9 @@
       "pattern_notes": []
     },
     "N": {
-      "count": 38,
+      "count": 43,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-13",
+      "last_seen": "2026-08-20",
       "pattern_notes": []
     },
     "O": {
@@ -4136,9 +4195,9 @@
       "notes": []
     },
     "AI Agents": {
-      "count": 49,
+      "count": 50,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "AI Cost Management": {
@@ -4232,9 +4291,9 @@
       "notes": []
     },
     "AI Workflow": {
-      "count": 31,
+      "count": 32,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "AI agent internet access": {
@@ -4429,6 +4488,12 @@
       "last_seen": "2026-07-02",
       "notes": []
     },
+    "Composable Software": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "notes": []
+    },
     "Computer Vision": {
       "count": 2,
       "first_seen": "2026-07-21",
@@ -4496,9 +4561,9 @@
       "notes": []
     },
     "Diffusion Models": {
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-09",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Distributed Systems": {
@@ -4535,6 +4600,12 @@
       "count": 1,
       "first_seen": "2026-07-02",
       "last_seen": "2026-07-02",
+      "notes": []
+    },
+    "Energy Analytics": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Fintech": {
@@ -4586,9 +4657,9 @@
       "notes": []
     },
     "Generative AI": {
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-06-20",
-      "last_seen": "2026-08-16",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Generative BI": {
@@ -5203,6 +5274,12 @@
       "last_seen": "2026-07-15",
       "notes": []
     },
+    "Text Generation": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "notes": []
+    },
     "Text-to-SQL": {
       "count": 1,
       "first_seen": "2026-07-20",
@@ -5416,9 +5493,9 @@
       "notes": []
     },
     "AI Application Layer": {
-      "count": 60,
+      "count": 61,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "AI Benchmarking": {
@@ -5446,9 +5523,9 @@
       "notes": []
     },
     "AI Engineering": {
-      "count": 49,
+      "count": 50,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "AI Governance": {
@@ -5548,9 +5625,9 @@
       "notes": []
     },
     "Agentic Infrastructure": {
-      "count": 55,
+      "count": 56,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Agritech": {
@@ -5590,9 +5667,9 @@
       "notes": []
     },
     "Capital Structural Dependency": {
-      "count": 47,
+      "count": 48,
       "first_seen": "2026-06-19",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Capital allocation": {
@@ -5619,16 +5696,34 @@
       "last_seen": "2026-07-11",
       "notes": []
     },
+    "Cost Optimization": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "notes": []
+    },
     "Cybersecurity": {
       "count": 1,
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-17",
       "notes": []
     },
+    "Cybersecurity for SMEs": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "notes": []
+    },
     "Data Access / Scraping": {
       "count": 1,
       "first_seen": "2026-07-27",
       "last_seen": "2026-07-27",
+      "notes": []
+    },
+    "Data Ethics": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Data Moat": {
@@ -5824,9 +5919,9 @@
       "notes": []
     },
     "Generative Modeling": {
-      "count": 17,
+      "count": 18,
       "first_seen": "2026-06-26",
-      "last_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Geopolitical/Sovereignty": {
@@ -6118,9 +6213,9 @@
       "notes": []
     },
     "SEA startup ecosystem": {
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-06-22",
-      "last_seen": "2026-08-04",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Semiconductor Failure Analysis": {
@@ -6157,6 +6252,12 @@
       "count": 1,
       "first_seen": "2026-07-03",
       "last_seen": "2026-07-03",
+      "notes": []
+    },
+    "Talent Migration": {
+      "count": 1,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
       "notes": []
     },
     "Time Series Foundation Models": {
